@@ -1,3 +1,8 @@
+@font-face{
+  font-family: dhr_font;
+src: url('../assets/dhr_font.ttf');
+}
+
 body {
   background-image: url(../assets/WIN_20190709_17_42_39_Pro.png);
   background-repeat: repeat;
