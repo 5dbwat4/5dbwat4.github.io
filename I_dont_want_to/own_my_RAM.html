@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Oh I don't want to take the course</title>
+    <style type="text/css">
+    .discription {
+  border: none;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: medium;
+  border-right-color: currentcolor;
+  border-right-style: none;
+  border-right-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-left-color: currentcolor;
+  border-left-style: none;
+  border-left-width: medium;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  display: inline-block;
+  outline: 0;
+  outline-color: currentcolor;
+  outline-style: none;
+  outline-width: 0px;
+  padding: 8px 18px;
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  text-decoration-thickness: auto;
+  color:
+    black;
+  background-color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+  transition: .2s ease-out;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  white-space: nowrap;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  font-family: '微软雅黑';
+  border-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}.tin_button {
+    display:inline;
+  border: none;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: medium;
+  border-right-color: currentcolor;
+  border-right-style: none;
+  border-right-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-left-color: currentcolor;
+  border-left-style: none;
+  border-left-width: medium;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  display: inline-block;
+
+  padding: 8px 18px;
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  overflow: auto;
+  overflow-x: auto;
+  overflow-y: auto;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  text-decoration-thickness: auto;
+  color:
+    #fff;
+
+  text-align: center;
+
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  font-family: '微软雅黑';
+}iframe{
+    position:relative;
+}
+    </style>
+</head>
+<body style="text-align: center;">
+    <div class="discription">
+        <p style="color: #000;">I don't want to own my RAM any longer!!!</p>
+    </div>
+    <br/>
+    <div class="discription">
+        <p style="color: #000;">because that the Array is filled with <span style="color: red;" id="howmany">0K</span> of 114514 or 1919810</p>
+    </div>
+    <script>
+        setTimeout(() => {
+            NORAM();
+        }, 3000);
+        var no_RAM=[];
+        function NORAM(){
+            while(true){
+                for(let i=0;i<1000;i++){
+                    no_RAM.push(114514);
+                    no_RAM.push(1919810);
+                }
+                document.getElementById("howmany").innerHTML=(no_RAM.length/1000)+"K";
+            }
+        }
+    </script>
+</body>
+</html>

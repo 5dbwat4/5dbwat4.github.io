@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Reviews</title>
+<link href="../style/main.css" rel="stylesheet" type="text/css" />
+<script src="../lib/jquery-3.3.1.js" ></script>
+<script src="../js/util.js" ></script>
+</head>
+
+<body>
+<h1>创建一个你自己的政治知识点</h1>
+<div id="step1"><h2>先取一个名字吧</h2>
+<input id="title"/>
+<p onclick="page.title_off()">OK</p></div>
+<div id="step2"><h2>新建一个题目</h2>
+<span>题目：</span><input id="question"/>
+<br/>
+<span>答案：</span><textarea style="width:500px" id="answer"></textarea>
+<p onclick="page.test_off()">下一题</p></div>
+<div id="output">
+    <textarea style="width:500px" id="outputdata"></textarea>
+</div>
+<script src="../js/create.js"></script>
+</body>
+</html>

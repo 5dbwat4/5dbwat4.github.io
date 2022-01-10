@@ -1,0 +1,3138 @@
+{
+    "pageTree": {
+        "name": "\u6d1b\u8c37",
+        "template": "Excited",
+        "route": "index",
+        "children": [{
+            "route": "theme.list",
+            "template": "theme.list",
+            "name": "\u4e3b\u9898\u5546\u5e97",
+            "children": [{
+                "route": "theme.design",
+                "template": "theme.designer",
+                "name": "\u4e3b\u9898\u8bbe\u8ba1",
+                "url": null
+            }],
+            "url": "\/theme\/list"
+        }, {
+            "route": "user.show",
+            "template": "user.show",
+            "name": "\u4e2a\u4eba\u4e2d\u5fc3",
+            "url": null
+        }, {
+            "route": "problem.list",
+            "template": "problem.list",
+            "name": "\u9898\u76ee\u5217\u8868",
+            "children": [{
+                "route": "problem.show",
+                "template": "problem.show",
+                "name": "\u9898\u76ee\u8be6\u60c5",
+                "url": null
+            }, {
+                "route": "problem.edit",
+                "template": "problem.edit",
+                "name": "\u9898\u76ee\u8be6\u60c5",
+                "url": null
+            }],
+            "url": "\/problem\/list"
+        }, {
+            "route": "old_problem.list",
+            "template": "Excited",
+            "name": "\u9898\u76ee\u5217\u8868",
+            "children": [{
+                "route": "old_problem.show",
+                "template": "Excited",
+                "name": "\u9898\u76ee\u8be6\u60c5",
+                "children": [{
+                    "route": "old_problem.solution",
+                    "template": "Excited",
+                    "name": "\u67e5\u770b\u9898\u89e3",
+                    "url": null
+                }, {
+                    "route": "old_problem.edit",
+                    "template": "Excited",
+                    "name": "\u9898\u76ee\u7f16\u8f91"
+                }]
+            }]
+        }, {
+            "name": "\u8bd5\u70bc\u573a",
+            "template": "Excited",
+            "route": "training"
+        }, {
+            "name": "\u6bd4\u8d5b\u5217\u8868",
+            "template": "contest.list",
+            "route": "contest.list",
+            "children": [{
+                "name": "\u6bd4\u8d5b\u8be6\u60c5",
+                "route": "contest.show",
+                "template": "contest.show",
+                "url": null
+            }, {
+                "name": "\u7f16\u8f91\u6bd4\u8d5b",
+                "template": "contest.edit",
+                "route": "contest.edit",
+                "url": null
+            }],
+            "url": "\/contest\/list"
+        }, {
+            "name": "\u8bc4\u6d4b\u8bb0\u5f55",
+            "template": "record.list",
+            "route": "record.list",
+            "children": [{
+                "name": "\u8bc4\u6d4b\u8be6\u60c5",
+                "template": "record.show",
+                "route": "record.show",
+                "url": null
+            }],
+            "url": "\/record\/list"
+        }, {
+            "name": "\u8ba8\u8bba\u5217\u8868",
+            "template": "Excited",
+            "route": "discuss.list",
+            "children": [{
+                "name": "\u8ba8\u8bba\u8be6\u60c5",
+                "template": "Excited",
+                "route": "discuss.show",
+                "url": null
+            }],
+            "url": "\/discuss\/lists"
+        }, {
+            "name": "\u9898\u5355\u5217\u8868",
+            "template": "training.list",
+            "route": "training.list",
+            "children": [{
+                "name": "\u9898\u5355\u8be6\u60c5",
+                "template": "training.show",
+                "route": "training.show",
+                "url": null
+            }, {
+                "name": "\u7f16\u8f91\u9898\u5355",
+                "template": "training.edit",
+                "route": "training.edit",
+                "url": null
+            }],
+            "url": "\/training\/list"
+        }, {
+            "name": "\u56fe\u7247\u4e0a\u4f20",
+            "template": "image.list",
+            "route": "image.list",
+            "url": "\/image"
+        }, {
+            "name": "\u4e91\u526a\u8d34\u677f",
+            "template": "paste.list",
+            "route": "paste.list",
+            "url": "\/paste"
+        }, {
+            "name": "\u4e91\u526a\u8d34\u677f",
+            "template": "paste.show",
+            "route": "paste.show",
+            "url": null
+        }, {
+            "name": "\u5495\u503c\u6392\u540d",
+            "template": "rank.list",
+            "route": "ranking.list",
+            "url": "\/ranking"
+        }, {
+            "name": "\u521b\u5efa\u56e2\u961f",
+            "template": "Excited",
+            "route": "team.apply",
+            "url": "\/team\/apply"
+        }, {
+            "name": "\u4e2a\u4eba\u4e2d\u5fc3",
+            "template": "Excited",
+            "route": "user.show",
+            "url": null
+        }, {
+            "name": "\u6211\u7684\u56e2\u961f",
+            "template": "Excited",
+            "route": "space.my_teams"
+        }, {
+            "name": "\u6211\u7684\u6bd4\u8d5b",
+            "template": "Excited",
+            "route": "space.my_contests"
+        }, {
+            "name": "\u4e2a\u4eba\u9898\u5e93",
+            "template": "Excited",
+            "route": "app.user_problem"
+        }],
+        "url": "\/"
+    },
+    "ws": {
+        "server": "wss:\/\/ws.luogu.com.cn\/ws"
+    },
+    "codeLanguages": {
+        "1": {
+            "aceMode": "pascal",
+            "name": "Pascal",
+            "fileExtensions": ".pas",
+            "id": 1
+        },
+        "2": {
+            "aceMode": "c_cpp",
+            "name": "C",
+            "fileExtensions": ".c",
+            "id": 2
+        },
+        "3": {
+            "aceMode": "c_cpp",
+            "name": "C++",
+            "fileExtensions": ".cpp, .cc, cxx",
+            "id": 3
+        },
+        "4": {
+            "aceMode": "c_cpp",
+            "name": "C++11",
+            "fileExtensions": ".cpp, .cc, .cxx",
+            "id": 4
+        },
+        "11": {
+            "aceMode": "c_cpp",
+            "name": "C++14",
+            "fileExtensions": ".cpp, .cc, cxx",
+            "id": 11
+        },
+        "12": {
+            "aceMode": "c_cpp",
+            "name": "C++17",
+            "fileExtensions": ".cpp, .cc, .cxx",
+            "id": 12
+        },
+        "5": {
+            "aceMode": "plain_text",
+            "name": "\u63d0\u4ea4\u7b54\u6848",
+            "fileExtensions": "",
+            "id": 5
+        },
+        "6": {
+            "aceMode": "python",
+            "name": "Python 2",
+            "fileExtensions": ".py",
+            "id": 6
+        },
+        "7": {
+            "aceMode": "python",
+            "name": "Python 3",
+            "fileExtensions": ".py",
+            "id": 7
+        },
+        "8": {
+            "aceMode": "java",
+            "name": "Java 8",
+            "fileExtensions": ".java",
+            "id": 8
+        },
+        "9": {
+            "aceMode": "javascript",
+            "name": "Node v8.9",
+            "fileExtensions": ".js",
+            "id": 9
+        },
+        "13": {
+            "aceMode": "ruby",
+            "name": "Ruby",
+            "fileExtensions": ".rb",
+            "id": 13
+        },
+        "14": {
+            "aceMode": "golang",
+            "name": "Go",
+            "fileExtensions": ".go",
+            "id": 14
+        },
+        "15": {
+            "aceMode": "rust",
+            "name": "Rust",
+            "fileExtensions": ".rs",
+            "id": 15
+        },
+        "16": {
+            "aceMode": "php",
+            "name": "PHP 7",
+            "fileExtensions": ".php",
+            "id": 16
+        },
+        "17": {
+            "aceMode": "csharp",
+            "name": "C# Mono",
+            "fileExtensions": ".cs",
+            "id": 17
+        },
+        "18": {
+            "aceMode": "vbscript",
+            "name": "Visual Basic Mono",
+            "fileExtensions": ".vb",
+            "id": 18
+        },
+        "19": {
+            "aceMode": "haskell",
+            "name": "Haskell",
+            "fileExtensions": ".hs",
+            "id": 19
+        },
+        "20": {
+            "aceMode": "kotlin",
+            "name": "Kotlin\/Native",
+            "fileExtensions": ".kt",
+            "id": 20
+        },
+        "21": {
+            "aceMode": "kotlin",
+            "name": "Kotlin\/JVM",
+            "fileExtensions": ".kt",
+            "id": 21
+        },
+        "22": {
+            "aceMode": "scala",
+            "name": "Scala",
+            "fileExtensions": ".scala",
+            "id": 22
+        },
+        "23": {
+            "aceMode": "perl",
+            "name": "Perl",
+            "fileExtensions": ".pl",
+            "id": 23
+        },
+        "24": {
+            "aceMode": "python",
+            "name": "PyPy 2",
+            "fileExtensions": ".py",
+            "id": 24
+        },
+        "25": {
+            "aceMode": "python",
+            "name": "PyPy 3",
+            "fileExtensions": ".py",
+            "id": 25
+        },
+        "26": {
+            "aceMode": "plain_text",
+            "name": "\u6587\u8a00",
+            "fileExtensions": ".wenyan",
+            "id": 26
+        }
+    },
+    "contestRuleTypes": {
+        "1": {
+            "id": 1,
+            "name": "OI",
+            "color": "orange-3"
+        },
+        "2": {
+            "id": 2,
+            "name": "ACM",
+            "color": "purple-3"
+        },
+        "3": {
+            "id": 3,
+            "name": "\u4e50\u591a",
+            "color": "gold-3"
+        },
+        "4": {
+            "id": 4,
+            "name": "IOI",
+            "color": "gold-3"
+        },
+        "5": {
+            "id": 5,
+            "name": "CodeForces (\u6682\u4e0d\u53ef\u7528)",
+            "color": "gold-3"
+        }
+    },
+    "recordStatus": {
+        "-1": {
+            "id": -1,
+            "name": "Unshown",
+            "shortName": "Unshown",
+            "color": "grey-5",
+            "filterable": false
+        },
+        "0": {
+            "id": 0,
+            "name": "Waiting",
+            "shortName": "Waiting",
+            "color": "blue-4",
+            "filterable": false
+        },
+        "1": {
+            "id": 1,
+            "name": "Judging",
+            "shortName": "Judging",
+            "color": "blue-3",
+            "filterable": false
+        },
+        "2": {
+            "id": 2,
+            "name": "Compile Error",
+            "shortName": "CE",
+            "color": "yellow-3",
+            "filterable": true
+        },
+        "3": {
+            "id": 3,
+            "name": "Output Limit Exceeded",
+            "shortName": "OLE",
+            "color": "blue-5",
+            "filterable": false
+        },
+        "4": {
+            "id": 4,
+            "name": "Memory Limit Exceeded",
+            "shortName": "MLE",
+            "color": "blue-5",
+            "filterable": false
+        },
+        "5": {
+            "id": 5,
+            "name": "Time Limit Exceeded",
+            "shortName": "TLE",
+            "color": "blue-5",
+            "filterable": false
+        },
+        "6": {
+            "id": 6,
+            "name": "Wrong Answer",
+            "shortName": "WA",
+            "color": "red-3",
+            "filterable": false
+        },
+        "7": {
+            "id": 7,
+            "name": "Runtime Error",
+            "shortName": "RE",
+            "color": "purple-3",
+            "filterable": false
+        },
+        "11": {
+            "id": 11,
+            "name": "Unknown Error",
+            "shortName": "UKE",
+            "color": "lapis-4",
+            "filterable": false
+        },
+        "12": {
+            "id": 12,
+            "name": "Accepted",
+            "shortName": "AC",
+            "color": "green-3",
+            "filterable": true
+        },
+        "14": {
+            "id": 14,
+            "name": "Unaccepted",
+            "shortName": "Unaccepted",
+            "color": "red-3",
+            "filterable": true
+        },
+        "21": {
+            "id": 21,
+            "name": "Hack Success",
+            "shortName": "Hack Success",
+            "color": "green-3",
+            "filterable": false
+        },
+        "22": {
+            "id": 22,
+            "name": "Hack Failure",
+            "shortName": "Hack Failure",
+            "color": "red-3",
+            "filterable": false
+        },
+        "23": {
+            "id": 23,
+            "name": "Hack Skipped",
+            "shortName": "Hack Skipped",
+            "color": "blue-5",
+            "filterable": false
+        }
+    },
+    "tags": {
+        "1": {
+            "name": "\u6a21\u62df",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "2": {
+            "name": "\u5b57\u7b26\u4e32",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "3": {
+            "name": "\u52a8\u6001\u89c4\u5212,\u52a8\u89c4,dp",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "4": {
+            "name": "\u641c\u7d22",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "5": {
+            "name": "\u6570\u8bba,\u6570\u5b66",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "6": {
+            "name": "\u56fe\u8bba",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "7": {
+            "name": "\u8d2a\u5fc3",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "8": {
+            "name": "\u8ba1\u7b97\u51e0\u4f55",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "9": {
+            "name": "\u66b4\u529b\u6570\u636e\u7ed3\u6784",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "10": {
+            "name": "\u9ad8\u7cbe",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "11": {
+            "name": "\u6811\u5f62\u7ed3\u6784",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "12": {
+            "name": "\u9012\u63a8",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "13": {
+            "name": "\u535a\u5f08\u8bba",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "14": {
+            "name": "1997",
+            "type": "Time",
+            "color": "blue"
+        },
+        "15": {
+            "name": "1998",
+            "type": "Time",
+            "color": "blue"
+        },
+        "16": {
+            "name": "1999",
+            "type": "Time",
+            "color": "blue"
+        },
+        "17": {
+            "name": "2000",
+            "type": "Time",
+            "color": "blue"
+        },
+        "18": {
+            "name": "2001(\u6216\u4e4b\u524d)",
+            "type": "Time",
+            "color": "blue"
+        },
+        "19": {
+            "name": "2002",
+            "type": "Time",
+            "color": "blue"
+        },
+        "20": {
+            "name": "2003",
+            "type": "Time",
+            "color": "blue"
+        },
+        "21": {
+            "name": "2004",
+            "type": "Time",
+            "color": "blue"
+        },
+        "22": {
+            "name": "2005",
+            "type": "Time",
+            "color": "blue"
+        },
+        "23": {
+            "name": "2006",
+            "type": "Time",
+            "color": "blue"
+        },
+        "24": {
+            "name": "2007",
+            "type": "Time",
+            "color": "blue"
+        },
+        "25": {
+            "name": "2008",
+            "type": "Time",
+            "color": "blue"
+        },
+        "26": {
+            "name": "2009",
+            "type": "Time",
+            "color": "blue"
+        },
+        "27": {
+            "name": "2010",
+            "type": "Time",
+            "color": "blue"
+        },
+        "28": {
+            "name": "2011",
+            "type": "Time",
+            "color": "blue"
+        },
+        "29": {
+            "name": "2012",
+            "type": "Time",
+            "color": "blue"
+        },
+        "30": {
+            "name": "2013",
+            "type": "Time",
+            "color": "blue"
+        },
+        "31": {
+            "name": "2014",
+            "type": "Time",
+            "color": "blue"
+        },
+        "32": {
+            "name": "2015",
+            "type": "Time",
+            "color": "blue"
+        },
+        "33": {
+            "name": "2016",
+            "type": "Time",
+            "color": "blue"
+        },
+        "34": {
+            "name": "2017",
+            "type": "Time",
+            "color": "blue"
+        },
+        "35": {
+            "name": "2018",
+            "type": "Time",
+            "color": "blue"
+        },
+        "36": {
+            "name": "2019",
+            "type": "Time",
+            "color": "blue"
+        },
+        "37": {
+            "name": "2020",
+            "type": "Time",
+            "color": "blue"
+        },
+        "38": {
+            "name": "\u91cd\u5e86",
+            "type": "Region",
+            "color": "green"
+        },
+        "39": {
+            "name": "\u56db\u5ddd",
+            "type": "Region",
+            "color": "green"
+        },
+        "40": {
+            "name": "\u6cb3\u5357",
+            "type": "Region",
+            "color": "green"
+        },
+        "41": {
+            "name": "\u83ab\u961f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "42": {
+            "name": "\u7ebf\u6bb5\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "43": {
+            "name": "\u500d\u589e",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "44": {
+            "name": "\u7ebf\u6027\u7ed3\u6784",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "45": {
+            "name": "\u4e8c\u5206\u7b54\u6848",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "46": {
+            "name": "USACO",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "47": {
+            "name": "\u5e76\u67e5\u96c6",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "48": {
+            "name": "\u5404\u7701\u7701\u9009",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "49": {
+            "name": "\u70b9\u5206\u6cbb",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "50": {
+            "name": "\u5e73\u8861\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "51": {
+            "name": "\u4e8c\u53c9\u5806",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "52": {
+            "name": "WC\/CTSC\/\u96c6\u8bad\u961f",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "53": {
+            "name": "\u6811\u72b6\u6570\u7ec4",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "54": {
+            "name": "\u9012\u5f52",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "55": {
+            "name": "\u6700\u5927\u5339\u914d",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "56": {
+            "name": "\u5355\u8c03\u961f\u5217",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "57": {
+            "name": "POI",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "58": {
+            "name": "2021",
+            "type": "Time",
+            "color": "blue"
+        },
+        "59": {
+            "name": "2022",
+            "type": "Time",
+            "color": "blue"
+        },
+        "60": {
+            "name": "2023",
+            "type": "Time",
+            "color": "blue"
+        },
+        "61": {
+            "name": "2024",
+            "type": "Time",
+            "color": "blue"
+        },
+        "62": {
+            "name": "2025",
+            "type": "Time",
+            "color": "blue"
+        },
+        "63": {
+            "name": "NOI2007",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "64": {
+            "name": "NOI2008",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "65": {
+            "name": "NOI2009",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "66": {
+            "name": "NOI2010",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "67": {
+            "name": "NOI2011",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "68": {
+            "name": "NOI2012",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "69": {
+            "name": "NOI2013",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "70": {
+            "name": "\u798f\u5efa\u7701\u5386\u5c4a\u590f\u4ee4\u8425",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "71": {
+            "name": "\u77e9\u9635\u8fd0\u7b97",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "72": {
+            "name": "\u6574\u6570\u7814\u7a76",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "73": {
+            "name": "\u7b97\u6cd5",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "74": {
+            "name": "\u6570\u636e\u7ed3\u6784",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "75": {
+            "name": "\u6765\u6e90",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "76": {
+            "name": "\u65f6\u95f4",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "77": {
+            "name": "NOI\u7cfb\u5217",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "78": {
+            "name": "\u79bb\u6563\u5316",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "79": {
+            "name": "\u7f51\u7edc\u6d41",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "80": {
+            "name": "\u9ad8\u7ea7\u6570\u636e\u7ed3\u6784",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "81": {
+            "name": "\u6d1b\u8c37\u539f\u521b",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "82": {
+            "name": "NOIp\u666e\u53ca\u7ec4",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "83": {
+            "name": "NOIp\u63d0\u9ad8\u7ec4",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "84": {
+            "name": "NOIp\u521d\u8d5b",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "85": {
+            "name": "APIO",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "86": {
+            "name": "\u5783\u573e",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "87": {
+            "name": "\u5730\u533a",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "88": {
+            "name": "\u6d59\u6c5f",
+            "type": "Region",
+            "color": "green"
+        },
+        "89": {
+            "name": "\u4e0a\u6d77",
+            "type": "Region",
+            "color": "green"
+        },
+        "90": {
+            "name": "\u798f\u5efa",
+            "type": "Region",
+            "color": "green"
+        },
+        "91": {
+            "name": "\u6c5f\u82cf",
+            "type": "Region",
+            "color": "green"
+        },
+        "92": {
+            "name": "\u5b89\u5fbd",
+            "type": "Region",
+            "color": "green"
+        },
+        "93": {
+            "name": "\u6e56\u5357",
+            "type": "Region",
+            "color": "green"
+        },
+        "94": {
+            "name": "\u5317\u4eac",
+            "type": "Region",
+            "color": "green"
+        },
+        "95": {
+            "name": "\u6cb3\u5317",
+            "type": "Region",
+            "color": "green"
+        },
+        "96": {
+            "name": "\u5e7f\u4e1c",
+            "type": "Region",
+            "color": "green"
+        },
+        "97": {
+            "name": "\u5c71\u4e1c",
+            "type": "Region",
+            "color": "green"
+        },
+        "98": {
+            "name": "\u5409\u6797",
+            "type": "Region",
+            "color": "green"
+        },
+        "99": {
+            "name": "NOI\u5bfc\u520a",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "100": {
+            "name": "cdq\u5206\u6cbb",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "101": {
+            "name": "\u540e\u7f00\u81ea\u52a8\u673a,SAM",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "102": {
+            "name": "IOI",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "103": {
+            "name": "\u4ea4\u4e92\u9898",
+            "type": "SpecialProblem",
+            "color": "orange"
+        },
+        "104": {
+            "name": "\u63d0\u4ea4\u7b54\u6848",
+            "type": "SpecialProblem",
+            "color": "orange"
+        },
+        "105": {
+            "name": "\u7279\u6b8a\u9898\u76ee",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "106": {
+            "name": "\u521d\u8d5b",
+            "type": "SpecialProblem",
+            "color": "orange"
+        },
+        "107": {
+            "name": "Special Judge",
+            "type": "SpecialProblem",
+            "color": "orange"
+        },
+        "108": {
+            "name": "O2\u4f18\u5316",
+            "type": "SpecialProblem",
+            "color": "orange"
+        },
+        "109": {
+            "name": "\u65b0\u4e91\u7aef",
+            "type": "SpecialProblem",
+            "color": "orange"
+        },
+        "110": {
+            "name": "\ufeff\u57fa\u7840\u7b97\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "111": {
+            "name": "\u679a\u4e3e,\u66b4\u529b",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "112": {
+            "name": "\u5206\u6cbb",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "113": {
+            "name": "\u6392\u5e8f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "114": {
+            "name": "\u5192\u6ce1\u6392\u5e8f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "115": {
+            "name": "\u9009\u62e9\u6392\u5e8f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "116": {
+            "name": "\u6876\u6392",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "117": {
+            "name": "\u63d2\u5165\u6392\u5e8f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "118": {
+            "name": "\u5f52\u5e76\u6392\u5e8f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "119": {
+            "name": "\u5feb\u901f\u6392\u5e8f,\u5feb\u6392",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "120": {
+            "name": "\u5806\u6392\u5e8f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "121": {
+            "name": "\u5e0c\u5c14\u6392\u5e8f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "122": {
+            "name": "\u5916\u90e8\u6392\u5e8f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "123": {
+            "name": "\u67e5\u627e\u7b97\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "124": {
+            "name": "\u987a\u5e8f\u67e5\u627e",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "125": {
+            "name": "\u4e8c\u5206\u67e5\u627e",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "126": {
+            "name": "\u5e7f\u5ea6\u4f18\u5148\u641c\u7d22,BFS",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "127": {
+            "name": "\u6df1\u5ea6\u4f18\u5148\u641c\u7d22,DFS",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "128": {
+            "name": "\u526a\u679d",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "129": {
+            "name": "\u8bb0\u5fc6\u5316\u641c\u7d22",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "130": {
+            "name": "\u542f\u53d1\u5f0f\u641c\u7d22",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "131": {
+            "name": "\u8fed\u4ee3\u52a0\u6df1",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "132": {
+            "name": "\u542f\u53d1\u5f0f\u8fed\u4ee3\u52a0\u6df1,IDA*",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "133": {
+            "name": "Dancing Links",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "134": {
+            "name": "\u722c\u5c71\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "135": {
+            "name": "\u6a21\u62df\u9000\u706b",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "136": {
+            "name": "\u968f\u673a\u8c03\u6574",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "137": {
+            "name": "\u9057\u4f20",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "138": {
+            "name": "\u52a8\u6001\u89c4\u5212\u521d\u6b65",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "139": {
+            "name": "\u80cc\u5305",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "140": {
+            "name": "\u73af\u578b\u52a8\u89c4,\u73af\u578bdp",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "141": {
+            "name": "\u6570\u4f4d\u52a8\u89c4,\u6570\u4f4ddp",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "142": {
+            "name": "\u5e8f\u5217\u578b\u52a8\u89c4,\u5e8f\u5217\u578bdp",
+            "type": "Unknown",
+            "color": "black"
+        },
+        "143": {
+            "name": "\u591a\u7ef4\u72b6\u6001",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "144": {
+            "name": "\u533a\u95f4\u52a8\u89c4,\u533a\u95f4dp",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "145": {
+            "name": "\u5b50\u6bcd\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "146": {
+            "name": "\u52a8\u6001\u89c4\u5212\u4f18\u5316",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "147": {
+            "name": "\u964d\u4f4e\u7ef4\u5ea6,\u964d\u7ef4",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "148": {
+            "name": "\u4f18\u5148\u961f\u5217",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "149": {
+            "name": "\u77e9\u9635\u52a0\u901f,\u77e9\u9635\u4f18\u5316",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "150": {
+            "name": "\u659c\u7387\u4f18\u5316",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "151": {
+            "name": "\u72b6\u6001\u538b\u7f29,\u72b6\u538b",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "152": {
+            "name": "\u6811\u5f62\u52a8\u89c4",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "153": {
+            "name": "\u51f8\u5b8c\u5168\u5355\u8c03\u6027,\u51f8\u5355\u8c03",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "154": {
+            "name": "\u56db\u8fb9\u5f62\u4e0d\u7b49\u5f0f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "155": {
+            "name": "\u56fe\u7684\u5efa\u7acb,\u5efa\u56fe",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "156": {
+            "name": "\u90bb\u63a5\u77e9\u9635",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "157": {
+            "name": "\u90bb\u63a5\u8868",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "158": {
+            "name": "\u56fe\u904d\u5386",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "159": {
+            "name": "\u62d3\u6251\u6392\u5e8f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "160": {
+            "name": "\u6700\u77ed\u8def",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "161": {
+            "name": "Floyd",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "162": {
+            "name": "Dijkstra",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "163": {
+            "name": "Bellman-Ford",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "164": {
+            "name": "SPFA",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "165": {
+            "name": "K\u77ed\u8def",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "166": {
+            "name": "\u751f\u6210\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "167": {
+            "name": "Prim",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "168": {
+            "name": "Kruskal",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "169": {
+            "name": "\u751f\u6210\u6811\u7684\u53e6\u7c7b\u7b97\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "170": {
+            "name": "\u6b21\u5c0f\u751f\u6210\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "171": {
+            "name": "\u7279\u6b8a\u751f\u6210\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "172": {
+            "name": "\u5708\u548c\u5757",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "173": {
+            "name": "\u6700\u5c0f\u73af",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "174": {
+            "name": "\u8d1f\u6743\u73af",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "175": {
+            "name": "\u8fde\u901a\u5757",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "176": {
+            "name": "2-SAT",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "177": {
+            "name": "\u6b27\u62c9\u516c\u5f0f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "178": {
+            "name": "\u56db\u8272\u5b9a\u7406",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "179": {
+            "name": "\u5f3a\u8fde\u901a\u5206\u91cf,\u7f29\u70b9",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "180": {
+            "name": "Tarjan",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "181": {
+            "name": "\u5272\u70b9",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "182": {
+            "name": "\u6b27\u62c9\u56de\u8def",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "183": {
+            "name": "AOV",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "184": {
+            "name": "AOE",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "185": {
+            "name": "\u5dee\u5206\u7ea6\u675f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "186": {
+            "name": "\u4ed9\u4eba\u638c",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "187": {
+            "name": "\u4e8c\u5206\u56fe",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "188": {
+            "name": "\u5308\u7259\u5229\u7b97\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "189": {
+            "name": "\u4e00\u822c\u56fe\u7684\u6700\u5927\u5339\u914d",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "190": {
+            "name": "Konig\u5b9a\u7406",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "191": {
+            "name": "\u5e26\u6743\u4e8c\u5206\u56fe\u5339\u914d",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "192": {
+            "name": "KM\u7b97\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "193": {
+            "name": "\u7a33\u5b9a\u5a5a\u59fb\u7cfb\u7edf",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "194": {
+            "name": "\u6700\u5927\u6d41",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "195": {
+            "name": "Dinic",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "196": {
+            "name": "Sap",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "197": {
+            "name": "\u6709\u4e0a\u4e0b\u754c\u7684\u6700\u5927\u6d41",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "198": {
+            "name": "\u6700\u5c0f\u5272",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "199": {
+            "name": "\u95ed\u5408\u56fe",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "200": {
+            "name": "\u6700\u5c0f\u70b9\u6743\u8986\u76d6\u96c6",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "201": {
+            "name": "\u6700\u5927\u70b9\u6743\u72ec\u7acb\u96c6",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "202": {
+            "name": "\u5206\u6570\u89c4\u5212",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "203": {
+            "name": "\u6700\u5927\u5bc6\u5ea6\u5b50\u56fe",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "204": {
+            "name": "\u8d39\u7528\u6d41",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "205": {
+            "name": "\u6700\u77ed\u8def\u589e\u5e7f\u8d39\u7528\u6d41",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "206": {
+            "name": "zkw\u8d39\u7528\u6d41",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "207": {
+            "name": "\u6700\u5c0f\u8d39\u7528\u53ef\u884c\u6d41",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "208": {
+            "name": "\u6811\u7684\u904d\u5386",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "209": {
+            "name": "\u6811\u4e0a\u8ddd\u79bb",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "210": {
+            "name": "\u8282\u70b9\u5230\u6839\u7684\u8ddd\u79bb",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "211": {
+            "name": "\u6700\u8fd1\u516c\u5171\u7956\u5148,LCA",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "212": {
+            "name": "\u8282\u70b9\u95f4\u7684\u8ddd\u79bb",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "213": {
+            "name": "\u6811\u7684\u76f4\u5f84",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "214": {
+            "name": "\u54c8\u592b\u66fc\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "215": {
+            "name": "\u5de6\u504f\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "216": {
+            "name": "\u659c\u5806",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "217": {
+            "name": "\u4e8c\u9879\u5806",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "218": {
+            "name": "AVL",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "219": {
+            "name": "Treap",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "220": {
+            "name": "SBT",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "221": {
+            "name": "Splay",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "222": {
+            "name": "\u9759\u6001\u6392\u5e8f\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "223": {
+            "name": "\u66ff\u7f6a\u7f8a\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "224": {
+            "name": "\u4e8c\u7ef4\u7ebf\u6bb5\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "225": {
+            "name": "\u77e9\u5f62\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "226": {
+            "name": "zkw\u7ebf\u6bb5\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "227": {
+            "name": "\u52a8\u6001\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "228": {
+            "name": "\u6811\u94fe\u5256\u5206,\u6811\u5256",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "229": {
+            "name": "Link-Cut Tree,LCT",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "230": {
+            "name": "\u6811\u7684\u5e94\u7528",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "231": {
+            "name": "RMQ",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "232": {
+            "name": "\u6811\u5957\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "233": {
+            "name": "\u4e3b\u5e2d\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "234": {
+            "name": "\u53ef\u6301\u4e45\u5316",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "235": {
+            "name": "\u54c8\u5e0c,HASH",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "236": {
+            "name": "ELFhash",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "237": {
+            "name": "SDBM",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "238": {
+            "name": "BKDR",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "239": {
+            "name": "\u7d20\u6570\u5224\u65ad,\u8d28\u6570,\u7b5b\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "240": {
+            "name": "\u4f17\u6570",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "241": {
+            "name": "\u6700\u5927\u516c\u7ea6\u6570,gcd",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "242": {
+            "name": "\u6269\u5c55\u6b27\u51e0\u91cc\u5fb7,\u6269\u6b27",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "243": {
+            "name": "\u4e0d\u5b9a\u65b9\u7a0b",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "244": {
+            "name": "\u8fdb\u5236",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "245": {
+            "name": "\u96c6\u5408\u8bba",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "246": {
+            "name": "\u7fa4\u8bba",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "247": {
+            "name": "\u7f6e\u6362",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "248": {
+            "name": "Polya\u539f\u7406",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "249": {
+            "name": "\u865a\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "250": {
+            "name": "\u540c\u4f59,\u4e2d\u56fd\u5269\u4f59\u5b9a\u7406",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "251": {
+            "name": "\u83ab\u6bd4\u4e4c\u65af\u53cd\u6f14",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "252": {
+            "name": "\u7ec4\u5408\u6570\u5b66",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "253": {
+            "name": "\u6392\u5217\u7ec4\u5408",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "254": {
+            "name": "\u524d\u7f00\u548c",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "255": {
+            "name": "\u4e8c\u9879\u5f0f\u5b9a\u7406",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "256": {
+            "name": "\u5eb7\u6258\u5c55\u5f00",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "257": {
+            "name": "\u888b\u4e0e\u7403\u95ee\u9898",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "258": {
+            "name": "\u9e3d\u7b3c",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "259": {
+            "name": "\u5bb9\u65a5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "260": {
+            "name": "\u6590\u6ce2\u90a3\u5951,Fibonacci",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "261": {
+            "name": "\u5361\u7279\u5170,Catalan",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "262": {
+            "name": "Stirling",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "263": {
+            "name": "A*\u7b97\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "264": {
+            "name": "\u751f\u6210\u51fd\u6570",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "265": {
+            "name": "\u7ebf\u6027\u89c4\u5212",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "266": {
+            "name": "\u6982\u7387\u8bba,\u7edf\u8ba1",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "267": {
+            "name": "\u7b80\u5355\u6982\u7387",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "268": {
+            "name": "\u6761\u4ef6\u6982\u7387",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "269": {
+            "name": "Bayes",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "270": {
+            "name": "\u671f\u671b",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "271": {
+            "name": "\u7ebf\u6027\u4ee3\u6570",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "272": {
+            "name": "\u77e9\u9635\u4e58\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "273": {
+            "name": "\u7ebf\u6027\u9012\u63a8,\u9012\u63a8\u5f0f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "274": {
+            "name": "\u9ad8\u65af\u6d88\u5143",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "275": {
+            "name": "\u5f02\u6216\u65b9\u7a0b\u7ec4",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "276": {
+            "name": "\u9006\u5143",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "277": {
+            "name": "\u7ebf\u6027\u57fa",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "278": {
+            "name": "\u5fae\u79ef\u5206\u521d\u6b65",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "279": {
+            "name": "\u6781\u9650",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "280": {
+            "name": "\u5bfc\u6570",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "281": {
+            "name": "\u79ef\u5206",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "282": {
+            "name": "\u5b9a\u79ef\u5206",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "283": {
+            "name": "\u7acb\u4f53\u89e3\u6790\u51e0\u4f55",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "284": {
+            "name": "\u7ea7\u6570",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "285": {
+            "name": "\u57fa\u672c\u6570\u7ec4",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "286": {
+            "name": "\u5411\u91cf",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "287": {
+            "name": "\u6808",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "288": {
+            "name": "\u961f\u5217",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "289": {
+            "name": "\u5757\u72b6\u94fe\u8868,\u5757\u72b6\u6570\u7ec4,\u5206\u5757",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "290": {
+            "name": "st\u8868,\u7a00\u758f\u8868",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "291": {
+            "name": "\u51f8\u5305",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "292": {
+            "name": "\u53c9\u79ef",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "293": {
+            "name": "\u7ebf\u6bb5\u76f8\u4ea4",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "294": {
+            "name": "\u70b9\u79ef",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "295": {
+            "name": "\u534a\u5e73\u9762\u76f8\u4ea4,\u534a\u5e73\u9762\u4ea4",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "296": {
+            "name": "\u6700\u8fd1\u70b9\u5bf9",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "297": {
+            "name": "\u51f8\u591a\u8fb9\u5f62\u7684\u4ea4",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "298": {
+            "name": "\u79bb\u6563\u5316\u626b\u63cf",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "299": {
+            "name": "\u65cb\u8f6c\u5361\u58f3",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "300": {
+            "name": "\u5b57\u5178\u6811,Trie\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "301": {
+            "name": "AC\u81ea\u52a8\u673a",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "302": {
+            "name": "KMP",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "303": {
+            "name": "\u540e\u7f00\u6570\u7ec4,SA",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "304": {
+            "name": "\u540e\u7f00\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "305": {
+            "name": "\u6709\u9650\u72b6\u6001\u81ea\u52a8\u673a",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "306": {
+            "name": "\u54c8\u592b\u66fc,Huffman",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "307": {
+            "name": "\u7b80\u5355\u5bc6\u7801\u5b66",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "308": {
+            "name": "\u5176\u5b83\u6280\u5de7",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "309": {
+            "name": "\u968f\u673a\u8d2a\u5fc3,\u968f\u673a\u5316",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "310": {
+            "name": "Nim\u6e38\u620f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "311": {
+            "name": "\u535a\u5f08\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "312": {
+            "name": "Shannon\u5f00\u5173\u6e38\u620f",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "313": {
+            "name": "\u5feb\u901f\u5085\u91cc\u53f6\u53d8\u6362,DFT,FFT",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "314": {
+            "name": "\u4f4d\u8fd0\u7b97,\u6309\u4f4d",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "315": {
+            "name": "\u9a97\u5206",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "316": {
+            "name": "\u6574\u4f53\u4e8c\u5206",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "317": {
+            "name": "NP\u95ee\u9898",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "318": {
+            "name": "\u6784\u9020",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "319": {
+            "name": "\u9ad8\u6027\u80fd",
+            "type": "SpecialProblem",
+            "color": "orange"
+        },
+        "320": {
+            "name": "\u73af\u5957\u6811",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "321": {
+            "name": "K-D Tree",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "322": {
+            "name": "Lucas",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "323": {
+            "name": "\u63d2\u5934dp",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "324": {
+            "name": "\u5feb\u901f\u6570\u8bba\u53d8\u6362NTT",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "325": {
+            "name": "\u56de\u6587\u81ea\u52a8\u673aPAM",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "326": {
+            "name": "\u5feb\u901f\u6c83\u5c14\u4ec0\u53d8\u6362FWT",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "327": {
+            "name": "\u5feb\u901f\u6c83\u5c14\u4ec0\u53d8\u6362FWT",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "328": {
+            "name": "\u5929\u6d25",
+            "type": "Region",
+            "color": "green"
+        },
+        "329": {
+            "name": "Manacher\u7b97\u6cd5",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "330": {
+            "name": "\u5dee\u5206",
+            "type": "Algorithm",
+            "color": "red"
+        },
+        "331": {
+            "name": "\u6e05\u534e\u96c6\u8bad",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "332": {
+            "name": "\u7f51\u7edc\u6d4124\u9898",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "333": {
+            "name": "COCI",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "334": {
+            "name": "BalticOI",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "335": {
+            "name": "ACM_ICPC",
+            "type": "Origin",
+            "color": "blue"
+        },
+        "336": {
+            "name": "JOI",
+            "type": "Origin",
+            "color": "blue"
+        }
+    },
+    "recordSortTypes": [{
+        "id": 0,
+        "name": "\u6700\u65b0\u63d0\u4ea4"
+    }, {
+        "id": 1,
+        "name": "\u6700\u4f18\u89e3"
+    }],
+    "messageStatusTypes": [{
+        "id": 0,
+        "name": "Deleted"
+    }, {
+        "id": 1,
+        "name": "Unread"
+    }, {
+        "id": 2,
+        "name": "Read"
+    }],
+    "translation": {
+        "authenticate": {
+            "logged_in": "\u60a8\u5df2\u7ecf\u767b\u5f55",
+            "wrong_password": "\u5bc6\u7801\u4e0d\u6b63\u786e",
+            "uid_mismatch": "UID\u4e0d\u5339\u914d",
+            "incorrect_password_or_code": "\u8f93\u5165\u7684\u5bc6\u7801\u6216\u8005\u4e24\u6b65\u9a8c\u8bc1\u7801\u9519\u8bef",
+            "unlocked": "\u7528\u6237\u5df2\u7ecf\u89e3\u9501"
+        },
+        "ban": {
+            "ip_ban": "\u8be5IP\u5730\u5740\u88ab\u7981\u6b62\u8bbf\u95ee\u6d1b\u8c37\u3002\u6709\u7591\u95ee\u8bf7\u53d1\u9001\u90ae\u4ef6\u81f3 shensu283@luogu.com.cn \u8054\u7cfb\u7ba1\u7406\u5458\uff0c\u5e76\u63d0\u4f9b\u7528\u6237\u540d\u3001\u5b66\u6821\u540d\u5b57\u548cIP\u5730\u5740\u3002",
+            "user_ban": "\u8be5\u8d26\u53f7\u88ab\u505c\u7528\uff0c\u8bf7\u767b\u51fa\u3002\u6709\u7591\u95ee\u8bf7\u53d1\u9001\u90ae\u4ef6\u81f3 shensu283@luogu.com.cn \u8054\u7cfb\u7ba1\u7406\u5458\uff0c\u5e76\u63d0\u4f9b\u7528\u6237\u540d\u3001\u5b66\u6821\u540d\u5b57\u3002\u7ba1\u7406\u5458\u5c06\u572830\u65e5\u5185\u5904\u7406\u3002"
+        },
+        "contest": {
+            "not_found": "\u6bd4\u8d5b\u672a\u627e\u5230",
+            "permission_denied": "\u60a8\u65e0\u6743\u67e5\u770b\u8be5\u6bd4\u8d5b",
+            "already_signed": "\u60a8\u5df2\u7ecf\u62a5\u540d\u8be5\u6bd4\u8d5b\u4e86",
+            "invalid_join_code": "\u9080\u8bf7\u7801\u6709\u8bef",
+            "invitation_code_used": "\u9080\u8bf7\u7801\u5df2\u88ab\u4f7f\u7528",
+            "not_ongoing": "\u6bd4\u8d5b\u5e76\u672a\u8fdb\u884c",
+            "edit": {
+                "no_edit_access": "\u60a8\u6ca1\u6709\u6743\u9650\u7f16\u8f91\u8be5\u6bd4\u8d5b",
+                "need_pid": "\u9700\u8981\u9009\u62e9\u9898\u76ee",
+                "can_not_add": "\u8fd9\u9053\u9898\u76ee\u65e0\u6cd5\u88ab\u6dfb\u52a0\u81f3\u8be5\u6bd4\u8d5b",
+                "need_score": "\u9700\u8981\u6307\u5b9a\u5206\u6570",
+                "need_visibility_type": "\u9700\u8981\u6307\u5b9a\u6bd4\u8d5b\u7c7b\u578b",
+                "not_qualified_for_public_contest": "\u60a8\u672a\u8fbe\u5230\u63d0\u4ea4\u516c\u5f00\u8d5b\u7684\u8981\u6c42\uff0c\u4e0d\u80fd\u63d0\u4ea4\u6bd4\u8d5b\u5ba1\u6838\u3002\u516c\u5f00\u8d5b\u8981\u6c42\u8bf7\u67e5\u770b https:\/\/www.luogu.com.cn\/discuss\/show\/174936",
+                "can_not_change_public": "\u65e0\u6cd5\u76f4\u63a5\u8bbe\u7f6e\u4e3a\u5df2\u7ecf\u5ba1\u6838\u7684\u72b6\u6001\u6216\u8005\u66f4\u6539\u5927\u7c7b",
+                "need_hoster": "\u9700\u8981\u6307\u5b9a\u4e3e\u529e\u8005",
+                "no_access_hoster": "\u60a8\u65e0\u6743\u6307\u5b9a\u4e3e\u529e\u8005\u4e3a\u8fd9\u4e2a\u56e2\u961f\u6216\u8005\u7528\u6237",
+                "hoster_not_found": "\u4e3e\u529e\u8005\u672a\u627e\u5230",
+                "invalid_time": "\u5f00\u59cb\u65f6\u95f4\u5927\u4e8e\u7ed3\u675f\u65f6\u95f4",
+                "need_description": "\u9700\u8981\u6307\u5b9a\u63cf\u8ff0",
+                "need_name": "\u9700\u8981\u6307\u5b9a\u6bd4\u8d5b\u6807\u9898",
+                "need_method": "\u9700\u8981\u6307\u5b9a\u8d5b\u5236",
+                "need_startTime": "\u9700\u8981\u6307\u5b9a\u5f00\u59cb\u65f6\u95f4",
+                "need_endTime": "\u9700\u8981\u6307\u5b9a\u7ed3\u675f\u65f6\u95f4",
+                "had_added": "\u8be5\u9898\u76ee\u5df2\u7ecf\u52a0\u5165\u6bd4\u8d5b\uff0c\u5982\u679c\u9700\u8981\u8c03\u6574\u987a\u5e8f\uff0c\u8bf7\u5220\u9664\u9898\u76ee\u540e\u91cd\u65b0\u6dfb\u52a0",
+                "had_not_added": "\u8be5\u9898\u76ee\u5e76\u672a\u52a0\u5165\u6bd4\u8d5b"
+            }
+        },
+        "discuss": {
+            "invalid_order_by": "\u4e0d\u5408\u6cd5\u7684\u6392\u5e8f\u53c2\u6570"
+        },
+        "framework": {
+            "request": {
+                "not_json_request": "\u63d0\u4ea4\u7684\u8bf7\u6c42\u4e0d\u662f\u5408\u6cd5\u7684JSON\u6570\u636e",
+                "query_invalid": "\u8bf7\u6c42\u53c2\u6570\u975e\u6cd5"
+            },
+            "serializer": {
+                "unexpected_force_type": "\u9519\u8bef\u7684ForceType",
+                "not_found": "Serializer\u672a\u627e\u5230",
+                "unexpected_criteria": "\u5e8f\u5217\u5316\u89c4\u5219\u4e0d\u5408\u6cd5"
+            }
+        },
+        "generic": {
+            "frequency_limit": "\u8bf7\u6c42\u9891\u7e41\uff0c\u8bf7\u7a0d\u5019\u518d\u8bd5",
+            "session_expired": "\u64cd\u4f5c\u8d85\u65f6\uff0c\u8bf7\u91cd\u8bd5",
+            "invalid_referer": "\u4e0d\u5408\u6cd5\u7684\u6765\u6e90\uff0c\u8bf7\u91cd\u8bd5",
+            "invalid_oauth_scope": "\u975e\u6cd5\u7684OAuth\u4f5c\u7528\u57df",
+            "access_denied": "\u62d2\u7edd\u8bbf\u95ee",
+            "not_found": "\u8be5\u9875\u9762\u672a\u627e\u5230",
+            "bad_request": "\u65e0\u6548\u8bf7\u6c42"
+        },
+        "identity_certify": {
+            "invalid_national_id": "\u8eab\u4efd\u8bc1\u53f7\u4e0d\u5408\u6cd5",
+            "user_exists": "\u5df2\u7ecf\u6709\u5176\u4ed6\u8d26\u53f7\u4f7f\u7528\u8be5\u8eab\u4efd\u8bc1\u8fdb\u884c\u8ba4\u8bc1"
+        },
+        "message": {
+            "permission_denied": "\u60a8\u65e0\u6743\u64cd\u4f5c\u8be5\u4fe1\u606f",
+            "ban": "\u60a8\u5df2\u7ecf\u88ab\u7981\u6b62\u4f7f\u7528\u79c1\u4fe1\u529f\u80fd\u3002",
+            "need_user": "\u9700\u8981\u6307\u5b9a\u7528\u6237",
+            "need_id": "\u9700\u8981\u6307\u5b9a\u6d88\u606fid",
+            "not_found": "\u4e0d\u5b58\u5728\u8be5\u6d88\u606f\u6216\u8005\u5df2\u88ab\u5220\u9664",
+            "can_not_send_to_self": "\u4e0d\u80fd\u7ed9\u81ea\u5df1\u53d1\u9001\u79c1\u4fe1",
+            "too_long": "\u53d1\u9001\u7684\u6d88\u606f\u592a\u957f",
+            "receiver_banned": "\u6839\u636e\u5bf9\u65b9\u7684\u8bbe\u7f6e\uff0c\u60a8\u4e0d\u80fd\u5411TA\u53d1\u9001\u79c1\u4fe1"
+        },
+        "oierdb": {
+            "school_not_found": "\u672a\u627e\u5230\u5b66\u6821\u4fe1\u606f\uff0c\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458\u8fdb\u884c\u8ba4\u8bc1",
+            "no_prize_found": "\u672a\u627e\u5230\u60a8\u7684\u83b7\u5956\u8bb0\u5f55\uff0c\u8bf7\u786e\u5b9a\u59d3\u540d\u3001\u5b66\u6821\u662f\u5426\u586b\u5199\u6b63\u786e\u3002",
+            "cannot_match": "\u6839\u636e\u60a8\u63d0\u4f9b\u7684\u4fe1\u606f\uff0c\u6211\u4eec\u6682\u65f6\u65e0\u6cd5\u4e3a\u60a8\u8ba4\u8bc1\u5956\u9879\u3002\u8bf7\u60a8\u5728\u60a8\u7684\u5e38\u7528\u5730\u91cd\u8bd5\uff0c\u6216\u62cd\u7167\u6216\u626b\u63cf\u60a8\u7684\u8bc1\u4e66\uff0c\u53d1\u9001\u81f3 shensu238@luogu.com.cn \uff0c\u6211\u4eec\u5c06\u4eba\u5de5\u4e3a\u60a8\u5904\u7406\u3002"
+        },
+        "paste": {
+            "not_found": "\u526a\u8d34\u677f\u5185\u5bb9\u672a\u627e\u5230",
+            "permission_denied": "\u60a8\u65e0\u6743\u67e5\u770b\u8be5\u526a\u8d34\u677f"
+        },
+        "problem": {
+            "not_found": "\u9898\u76ee\u672a\u627e\u5230",
+            "permission_denied": "\u60a8\u65e0\u6743\u67e5\u770b\u8be5\u9898\u76ee",
+            "invalid_order": "\u4e0d\u5408\u6cd5\u7684\u6392\u5e8f\u65b9\u5f0f",
+            "invalid_order_by": "\u4e0d\u5408\u6cd5\u7684\u6392\u5e8f\u5173\u952e\u5b57",
+            "invalid_type": "\u4e0d\u5408\u6cd5\u7684\u9898\u76ee\u7c7b\u578b",
+            "invalid_page": "\u4e0d\u5408\u6cd5\u7684\u9875\u7801",
+            "uncreateable_type": "\u60a8\u65e0\u6cd5\u521b\u5efa\u8fd9\u7c7b\u9898\u76ee",
+            "edit": {
+                "test_case_updaing": "\u6d4b\u8bd5\u70b9\u6b63\u5728\u66f4\u65b0",
+                "can_not_edit": "\u60a8\u6ca1\u6709\u7f16\u8f91\u6b64\u9898\u76ee\u7684\u6743\u9650",
+                "no_test_data": "\u8bf7\u5148\u4e0a\u4f20\u6d4b\u8bd5\u6570\u636e",
+                "unexpected_strategy": "\u4e0d\u5408\u6cd5\u7684\u79ef\u5206\u7b56\u7565",
+                "need_scoring_script": "\u81ea\u5b9a\u4e49\u8ba1\u5206\u9700\u8981\u8ba1\u5206\u811a\u672c",
+                "same_type": "\u65e0\u6cd5\u8fc1\u79fb\u5230\u76f8\u540c\u7684\u7c7b\u578b",
+                "need_team_id": "\u9700\u8981\u63d0\u4f9b\u56e2\u961fID",
+                "unexpected_samples": "\u4e0d\u5408\u6cd5\u7684\u6837\u4f8b",
+                "unexpected_file_type": "\u4e0d\u5408\u6cd5\u7684\u6587\u4ef6\u7c7b\u578b",
+                "need_type": "\u9700\u8981\u6307\u5b9a\u521b\u5efa\u7684\u9898\u76ee\u7c7b\u578b",
+                "need_provider": "\u9700\u8981\u63d0\u4f9b\u56e2\u961fId",
+                "time_limit": "\u5355\u4e2a\u70b9\u65f6\u95f4\u9650\u5236\u4e0d\u53ef\u5927\u4e8e5s\uff0c\u5982\u6709\u9700\u8981\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458",
+                "unexpected_time_limit": "\u4e0d\u5408\u6cd5\u7684\u65f6\u95f4\u9650\u5236",
+                "memory_limit": "\u5355\u4e2a\u70b9\u7a7a\u95f4\u4e0d\u53ef\u5927\u4e8e512MB\uff0c\u5982\u6709\u9700\u8981\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458",
+                "unexpected_memory_limit": "\u4e0d\u5408\u6cd5\u7684\u7a7a\u95f4\u9650\u5236",
+                "unexpected_full_score": "\u4e0d\u5408\u6cd5\u7684\u5355\u70b9\u5206\u6570",
+                "too_many_subtask": "\u5b50\u4efb\u52a1\u6570\u4e0d\u53ef\u5927\u4e8e10\u4e2a\uff0c\u5982\u6709\u9700\u8981\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458",
+                "total_time_limit": "\u603b\u65f6\u9650\u4e0d\u53ef\u5927\u4e8e120s\uff0c\u5982\u6709\u9700\u8981\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458"
+            },
+            "attachment": {
+                "not_found": "\u9644\u4ef6\u672a\u627e\u5230",
+                "no_space_left": "\u9898\u76ee\u9644\u4ef6\u5df2\u7ecf\u6ca1\u6709\u5269\u4f59\u7a7a\u95f4"
+            },
+            "task_list": {
+                "problem_not_found": "\u8be5\u9898\u76ee\u5c1a\u672a\u6536\u85cf",
+                "too_long": "\u60a8\u5df2\u6536\u85cf\u4e86\u8fc7\u591a\u7684\u9898\u76ee",
+                "already_collected": "\u8be5\u9898\u76ee\u5df2\u7ecf\u88ab\u6536\u85cf"
+            },
+            "submit": {
+                "can_not_submit": "\u60a8\u4e0d\u80fd\u63d0\u4ea4\u8be5\u9898\u76ee",
+                "frequency_limit_for_unverified_user": "\u63d0\u4ea4\u8fc7\u4e8e\u9891\u7e41\uff0c\u8bf7\u8fc710\u5206\u949f\u518d\u5c1d\u8bd5\uff0c\u60a8\u53ef\u8fdb\u884c\u5b9e\u540d\u8ba4\u8bc1\u4ee5\u63d0\u9ad8\u63d0\u4ea4\u9650\u5236\u6b21\u6570",
+                "frequency_limit": "\u63d0\u4ea4\u8fc7\u4e8e\u9891\u7e41\uff0c\u8bf7\u8fc73\u5206\u949f\u518d\u5c1d\u8bd5",
+                "long_time_problem_limit": "\u63d0\u4ea4\u957f\u65f6\u9650\u9898\u76ee\u8d85\u8fc7\u60a8\u5f53\u65e5\u6700\u5927\u9650\u5236",
+                "code_too_short": "\u8fd9\u4e48\u77ed\u6ca1\u95ee\u9898\uff1f",
+                "code_too_long": "\u4ee3\u7801\u8fc7\u957f"
+            },
+            "resolve": {
+                "too_many_pids": "\u7ed9\u5b9a\u7684PID\u592a\u591a"
+            }
+        },
+        "rating": {
+            "invalid_order_by": "\u9519\u8bef\u7684\u6392\u5e8f\u53c2\u6570"
+        },
+        "record": {
+            "not_found": "\u8bb0\u5f55\u672a\u627e\u5230",
+            "need_problem": "\u9700\u8981\u6307\u5b9a\u9898\u76ee",
+            "need_problem_or_user": "\u9700\u8981\u5236\u5b9a\u9898\u76ee\u6216\u7528\u6237",
+            "permission_denied": "\u60a8\u4e0d\u80fd\u67e5\u770b\u672c\u6761\u8bc4\u6d4b\u8bb0\u5f55",
+            "ongoing_contest_only": "\u4ec5\u5141\u8bb8\u67e5\u770b\u6b63\u5728\u8fdb\u884c\u6216\u7ed3\u675f\u7684\u6bd4\u8d5b\u8bb0\u5f55",
+            "invalid_status": "\u4e0d\u5408\u6cd5\u7684\u8bb0\u5f55\u72b6\u6001",
+            "invalid_language": "\u4e0d\u5408\u6cd5\u7684\u8bed\u8a00\u7c7b\u578b",
+            "download": {
+                "exceed_limit": "\u60a8\u5df2\u8d85\u51fa\u672c\u65e5\u53ef\u4e0b\u8f7d\u6570\u636e\u6700\u5927\u6b21\u6570"
+            }
+        },
+        "team": {
+            "not_found": "\u56e2\u961f\u672a\u627e\u5230",
+            "no_admin_permission": "\u6ca1\u6709\u56e2\u961f\u7ba1\u7406\u6743\u9650",
+            "cannot_remove_master": "\u56e2\u961f\u4e3b\u4e0d\u80fd\u591f\u9000\u51fa\u56e2\u961f"
+        },
+        "upload_image": {
+            "not_found": "\u56fe\u7247\u672a\u627e\u5230",
+            "permission_denied": "\u60a8\u65e0\u6743\u7f16\u8f91\u8be5\u56fe\u7247\uff0c\u6216\u8005\u6ca1\u6709\u7ba1\u7406\u6743\u9650",
+            "ban": "\u60a8\u5c1a\u672a\u8fdb\u884c\u5b9e\u540d\u8ba4\u8bc1\u6216\u8005\u5df2\u7ecf\u88ab\u7981\u6b62\u4f7f\u7528\u56fe\u5e8a",
+            "no_space_left": "\u60a8\u5269\u4f59\u50a8\u5b58\u7a7a\u95f4\u4e0d\u591f\u4e0a\u4f20\u8be5\u56fe\u7247\u6216\u8005\u5df2\u7ecf\u88ab\u7981\u6b62\u4f7f\u7528\u56fe\u5e8a",
+            "image_only": "\u4ec5\u53ef\u4ee5\u4e0a\u4f20\u56fe\u7247",
+            "frequency_limit": "24h\u5185\u6700\u591a\u4e0a\u4f2050\u5f20\u56fe\u7247",
+            "not_oss_callback": "\u975e\u6cd5\u7684OSS\u56de\u8c03\u8bf7\u6c42",
+            "need_id": "\u9700\u8981\u63d0\u4f9b\u56fe\u7247id",
+            "need_user": "\u9700\u8981\u63d0\u4f9b\u7528\u6237",
+            "need_watermarkType": "\u9700\u8981\u63d0\u4f9b\u6c34\u5370\u7c7b\u578b",
+            "need_size": "\u9700\u8981\u63d0\u4f9b\u56fe\u7247\u5927\u5c0f",
+            "need_filename": "\u9700\u8981\u63d0\u4f9b\u6587\u4ef6\u540d",
+            "invalid_type": "\u4e0d\u5408\u6cd5\u7684\u7c7b\u578b",
+            "need_introduction": "\u4e2a\u4eba\u7b80\u4ecb\u4e0d\u80fd\u4e3a\u7a7a"
+        },
+        "user": {
+            "not_found": "\u7528\u6237\u672a\u627e\u5230",
+            "not_logged_in": "\u7528\u6237\u5c1a\u672a\u767b\u5f55",
+            "not_verified": "\u60a8\u672a\u901a\u8fc7\u5b9e\u540d\u8ba4\u8bc1",
+            "not_admin": "\u60a8\u4e0d\u662f\u7ba1\u7406\u5458",
+            "special_account": "\u60a8\u7684\u8d26\u53f7\u6682\u65f6\u65e0\u6cd5\u767b\u5f55",
+            "cannot_follow": "\u6839\u636e\u5bf9\u65b9\u7528\u6237\u7684\u8bbe\u7f6e\uff0c\u60a8\u6682\u65f6\u65e0\u6cd5\u5173\u6ce8\u6b64\u7528\u6237",
+            "not_identity_certified": "\u7528\u6237\u5c1a\u672a\u7ed1\u5b9a\u8eab\u4efd\u8bc1\u53f7",
+            "same_status": "\u65b0\u7684\u7528\u6237\u5173\u7cfb\u4e0e\u539f\u6765\u76f8\u540c",
+            "need_setting": "\u9700\u8981\u63d0\u4f9b\u7528\u6237\u8bbe\u7f6e",
+            "slogan_too_long": "\u7b7e\u540d\u957f\u5ea6\u4e0d\u80fd\u8d85\u8fc7127\u5b57\u7b26",
+            "open_source_limit": "\u7531\u4e8e\u5728\u6b64\u52a0\u5165\u4ee3\u7801\u516c\u5f00\u8ba1\u5212\u672a\u6ee130\u5929\uff0c\u4e0d\u80fd\u9000\u51fa",
+            "username": {
+                "length": "\u7528\u6237\u540d\u957f\u5ea6\u5e94\u4ecb\u4e8e4\u523020\u5b57\u8282",
+                "character": "\u7528\u6237\u540d\u4ec5\u80fd\u4f7f\u7528\u82f1\u6587\u5b57\u6bcd\u3001\u6570\u5b57\u3001\u4e0b\u5212\u7ebf\u6216\u4e2d\u6587",
+                "numeric": "\u7528\u6237\u540d\u4e0d\u80fd\u4e3a\u7eaf\u6570\u5b57",
+                "username_taken": "\u8be5\u7528\u6237\u540d\u5df2\u88ab\u4f7f\u7528"
+            },
+            "password": {
+                "length": "\u5bc6\u7801\u957f\u5ea6\u5e94\u4ecb\u4e8e6\u523020\u5b57\u8282",
+                "charset": "\u5bc6\u7801\u9700\u8981\u5305\u542b\u81f3\u5c11\u4e00\u4e2a\u6570\u5b57\u548c\u4e00\u4e2a\u5b57\u6bcd"
+            },
+            "register": {
+                "email_taken": "\u8be5\u90ae\u7bb1\u5df2\u88ab\u4f7f\u7528",
+                "phone_taken": "\u8be5\u624b\u673a\u5df2\u88ab\u4f7f\u7528"
+            },
+            "openid": {
+                "already_exists": "\u60a8\u5df2\u7ed1\u5b9a\u8be5\u5e73\u53f0\u8d26\u53f7"
+            },
+            "contact": {
+                "already_bind": "\u60a8\u5df2\u7ecf\u7ed1\u5b9a\u4e86\u8fd9\u79cd\u8054\u7cfb\u65b9\u5f0f"
+            }
+        },
+        "verify": {
+            "invalid_captcha": "\u9a8c\u8bc1\u7801\u9519\u8bef",
+            "wrong_verify_code": "\u90ae\u7bb1\u6216\u624b\u673a\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e",
+            "endpoint_format": "\u90ae\u7bb1\u6216\u624b\u673a\u683c\u5f0f\u4e0d\u6b63\u786e",
+            "3minute_frequency_limit": "\u53d1\u9001\u8fc7\u4e8e\u9891\u7e41\uff0c\u8bf7\u7a0d\u5019\u518d\u8bd5",
+            "ip_frequency_limit": "\u5f53\u524dIP\u8d85\u51fa\u5f53\u65e5\u53d1\u9001\u9650\u5236\uff0c\u8bf7\u660e\u65e5\u518d\u8bd5",
+            "endpoint_frequency_limit": "\u5f53\u524d\u624b\u673a\u53f7\u8d85\u51fa\u5f53\u65e5\u53d1\u9001\u9650\u5236\uff0c\u8bf7\u660e\u65e5\u518d\u8bd5",
+            "user_already_exist": "\u4f7f\u7528\u8be5\u90ae\u7bb1\u6216\u624b\u673a\u7684\u7528\u6237\u5df2\u5b58\u5728",
+            "user_not_exist": "\u4f7f\u7528\u8be5\u90ae\u7bb1\u6216\u624b\u673a\u7684\u7528\u6237\u4e0d\u5b58\u5728",
+            "2fa": {
+                "had_set": "\u60a8\u5df2\u7ecf\u8bbe\u7f6e\u4e86\u4e24\u6b65\u9a8c\u8bc1\u7801",
+                "unset": "\u60a8\u8fd8\u672a\u8bbe\u7f6e\u4e24\u90e8\u9a8c\u8bc1\u7801",
+                "incorrect_2fa_code": "\u9519\u8bef\u7684\u4e24\u6b65\u9a8c\u8bc1\u7801"
+            }
+        },
+        "vjudge": {
+            "invalid_oj": "\u4e0d\u5408\u6cd5\u7684OJ",
+            "email_name": "\u8bf7\u4f7f\u7528\u60a8\u5728OJ\u7684\u7528\u6237\u540d\u767b\u5f55\uff0c\u4e0d\u652f\u6301\u4f7f\u7528\u90ae\u7bb1\u7ed1\u5b9a\u8d26\u53f7",
+            "login_fail": "\u767b\u5f55\u5931\u8d25\uff08\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef\uff1f\uff09",
+            "network_error": "\u4e0e\u5bf9\u65b9OJ\u901a\u8baf\u4e0d\u7545\uff0c\u8bf7\u7a0d\u540e\u518d\u8bd5",
+            "logout_and_retry": "\u8bf7\u91cd\u65b0\u767b\u9646\u540e\u518d\u6b21\u5c1d\u8bd5",
+            "unbind": "\u60a8\u5c1a\u672a\u7ed1\u5b9a\u8be5OJ\u8d26\u6237"
+        },
+        "training": {
+            "unexpected_type": "\u65e0\u6743\u521b\u5efa\u8be5\u7c7b\u578b\u7684\u9898\u5355",
+            "can_not_clone": "\u6b64\u9898\u5355\u65e0\u6cd5\u518d\u88ab\u8f6c\u5b58",
+            "can_not_view_scoreboard": "\u8be5\u9898\u5355\u65e0\u6cd5\u67e5\u770b\u79ef\u5206\u699c",
+            "has_joined": "\u5df2\u7ecf\u6536\u85cf\u8fc7\u9898\u5355",
+            "not_joined": "\u5c1a\u672a\u52a0\u5165\u8bad\u7ec3",
+            "setting": {
+                "title_too_long": "\u8bad\u7ec3\u6807\u9898\u592a\u957f",
+                "empty_title": "\u6807\u9898\u4e0d\u53ef\u4e3a\u7a7a"
+            }
+        }
+    },
+    "recordLanguageTypes": {
+        "1": {
+            "id": 1,
+            "name": "Pascal",
+            "aceMode": "pascal"
+        },
+        "2": {
+            "id": 2,
+            "name": "C",
+            "aceMode": "c_cpp"
+        },
+        "3": {
+            "id": 3,
+            "name": "C++",
+            "aceMode": "c_cpp"
+        },
+        "4": {
+            "id": 4,
+            "name": "C++11",
+            "aceMode": "c_cpp"
+        },
+        "11": {
+            "id": 11,
+            "name": "C++14",
+            "aceMode": "c_cpp"
+        },
+        "12": {
+            "id": 12,
+            "name": "C++17",
+            "aceMode": "c_cpp"
+        },
+        "5": {
+            "id": 5,
+            "name": "\u63d0\u4ea4\u7b54\u6848",
+            "aceMode": "plain_text"
+        },
+        "6": {
+            "id": 6,
+            "name": "Python 2",
+            "aceMode": "python"
+        },
+        "7": {
+            "id": 7,
+            "name": "Python 3",
+            "aceMode": "python"
+        },
+        "8": {
+            "id": 8,
+            "name": "Java 8",
+            "aceMode": "java"
+        },
+        "9": {
+            "id": 9,
+            "name": "Node v8.9",
+            "aceMode": "javascript"
+        },
+        "10": {
+            "id": 10,
+            "name": "Shell",
+            "aceMode": "sh"
+        },
+        "13": {
+            "id": 13,
+            "name": "Ruby",
+            "aceMode": "ruby"
+        },
+        "14": {
+            "id": 14,
+            "name": "Go",
+            "aceMode": "golang"
+        },
+        "15": {
+            "id": 15,
+            "name": "Rust",
+            "aceMode": "rust"
+        },
+        "16": {
+            "id": 16,
+            "name": "PHP 7",
+            "aceMode": "php"
+        },
+        "17": {
+            "id": 17,
+            "name": "C# Mono",
+            "aceMode": "csharp"
+        },
+        "18": {
+            "id": 18,
+            "name": "Visual Basic Mono",
+            "aceMode": "vbscript"
+        },
+        "19": {
+            "id": 19,
+            "name": "Haskell",
+            "aceMode": "haskell"
+        },
+        "20": {
+            "id": 20,
+            "name": "Kotlin\/Native",
+            "aceMode": "kotlin"
+        },
+        "21": {
+            "id": 21,
+            "name": "Kotlin\/JVM",
+            "aceMode": "kotlin"
+        },
+        "22": {
+            "id": 22,
+            "name": "Scala",
+            "aceMode": "scala"
+        },
+        "23": {
+            "id": 23,
+            "name": "Perl",
+            "aceMode": "perl"
+        },
+        "24": {
+            "id": 24,
+            "name": "PyPy 2",
+            "aceMode": "python"
+        },
+        "25": {
+            "id": 25,
+            "name": "PyPy 3",
+            "aceMode": "python"
+        },
+        "26": {
+            "id": 26,
+            "name": "\u6587\u8a00",
+            "aceMode": "plain_text"
+        }
+    },
+    "problemDifficulty": [{
+        "id": 0,
+        "name": "\u6682\u65e0\u8bc4\u5b9a",
+        "color": "grey-3"
+    }, {
+        "id": 1,
+        "name": "\u5165\u95e8",
+        "color": "pink-3"
+    }, {
+        "id": 2,
+        "name": "\u666e\u53ca-",
+        "color": "orange-3"
+    }, {
+        "id": 3,
+        "name": "\u666e\u53ca\/\u63d0\u9ad8-",
+        "color": "gold-3"
+    }, {
+        "id": 4,
+        "name": "\u666e\u53ca+\/\u63d0\u9ad8",
+        "color": "green-3"
+    }, {
+        "id": 5,
+        "name": "\u63d0\u9ad8+\/\u7701\u9009-",
+        "color": "blue-3"
+    }, {
+        "id": 6,
+        "name": "\u7701\u9009\/NOI-",
+        "color": "purple-3"
+    }, {
+        "id": 7,
+        "name": "NOI\/NOI+\/CTSC",
+        "color": "lapis-4"
+    }],
+    "senderEndpointTypes": {
+        "1": {
+            "id": 1,
+            "type": "Email"
+        },
+        "2": {
+            "id": 2,
+            "type": "SMS"
+        }
+    },
+    "contestAccessLevel": [{
+        "id": 0,
+        "name": "ViewDisallowed"
+    }, {
+        "id": 1,
+        "name": "View"
+    }, {
+        "id": 2,
+        "name": "Join"
+    }, {
+        "id": 3,
+        "name": "ViewProblem"
+    }, {
+        "id": 4,
+        "name": "ViewScoreBoard"
+    }, {
+        "id": 5,
+        "name": "Management"
+    }],
+    "rankingSortTypes": [{
+        "id": 0,
+        "valueName": "rating",
+        "name": "\u603b\u5206"
+    }, {
+        "id": 1,
+        "valueName": "basicRating",
+        "name": "\u57fa\u7840"
+    }, {
+        "id": 2,
+        "valueName": "socialRating",
+        "name": "\u793e\u533a"
+    }, {
+        "id": 3,
+        "valueName": "contestRating",
+        "name": "\u6bd4\u8d5b"
+    }, {
+        "id": 4,
+        "valueName": "practiceRating",
+        "name": "\u7ec3\u4e60"
+    }, {
+        "id": 5,
+        "valueName": "prizeRating",
+        "name": "\u6210\u5c31"
+    }],
+    "openIdPlatformTypes": {
+        "1": "\u5fae\u4fe1",
+        "2": "GitHub"
+    },
+    "contestVisibilityTypes": [{
+        "id": 0,
+        "name": "\u5c01\u7981\u6bd4\u8d5b",
+        "color": "grey-5",
+        "userCreatable": false,
+        "scope": "disabled"
+    }, {
+        "id": 1,
+        "name": "\u5b98\u65b9\u6bd4\u8d5b",
+        "color": "red-3",
+        "userCreatable": false,
+        "scope": "global"
+    }, {
+        "id": 2,
+        "name": "\u56e2\u961f\u516c\u5f00\u8d5b",
+        "color": "green-4",
+        "userCreatable": false,
+        "scope": "team"
+    }, {
+        "id": 3,
+        "name": "\u56e2\u961f\u5185\u90e8\u8d5b",
+        "color": "blue-3",
+        "userCreatable": true,
+        "scope": "team"
+    }, {
+        "id": 4,
+        "name": "\u4e2a\u4eba\u516c\u5f00\u8d5b",
+        "color": "blue-3",
+        "userCreatable": false,
+        "scope": "personal"
+    }, {
+        "id": 5,
+        "name": "\u4e2a\u4eba\u9080\u8bf7\u8d5b",
+        "color": "lapis-3",
+        "userCreatable": true,
+        "scope": "personal"
+    }, {
+        "id": 6,
+        "name": "\u56e2\u961f\u9080\u8bf7\u8d5b",
+        "color": "lapis-3",
+        "userCreatable": true,
+        "scope": "team"
+    }, {
+        "id": 7,
+        "name": "\u56e2\u961f\u516c\u5f00\u8d5b (\u5f85\u5ba1\u6838)",
+        "color": "green-4",
+        "userCreatable": true,
+        "scope": "team"
+    }, {
+        "id": 8,
+        "name": "\u4e2a\u4eba\u516c\u5f00\u8d5b (\u5f85\u5ba1\u6838)",
+        "color": "blue-3",
+        "userCreatable": true,
+        "scope": "personal"
+    }],
+    "problemTags": [{
+        "group": "\u6765\u6e90",
+        "tags": [46, 48, 52, 57, 70, 77, 81, 82, 83, 84, 85, 99, 102, 331, 332, 333, 334, 335, 336]
+    }, {
+        "group": "\u65f6\u95f4",
+        "tags": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 58, 59, 60, 61, 62]
+    }, {
+        "group": "\u5730\u533a",
+        "tags": [38, 39, 40, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 328]
+    }, {
+        "group": "\u7279\u6b8a\u9898\u76ee",
+        "tags": [103, 104, 106, 107, 108, 109, 319]
+    }],
+    "routes": {
+        "blog_admin.article.list": "\/blogAdmin\/article\/list",
+        "blog_admin.article.edit": "\/blogAdmin\/article\/edit\/{blogID}",
+        "blog_admin.article.new": "\/blogAdmin\/article\/new",
+        "blog_admin.article.comments": "\/blogAdmin\/article\/comments\/{blogID}",
+        "blog_admin.article.post_edit": "\/blogAdmin\/article\/post_edit\/{blogID}",
+        "blog_admin.article.post_new": "\/blogAdmin\/article\/post_new",
+        "blog_admin.article.delete_comment": "\/blogAdmin\/article\/deleteComment\/{blogID}",
+        "lfe_all_config": "\/_lfe\/config",
+        "contest.list": "\/contest\/list",
+        "contest.show": "\/contest\/{id}",
+        "contest.edit": "\/contest\/edit\/{id}",
+        "contest.new": "\/contest\/new",
+        "paste.list": "\/paste",
+        "paste.new": "\/paste\/new",
+        "paste.edit": "\/paste\/edit\/{id}",
+        "paste.delete": "\/paste\/delete\/{id}",
+        "paste.show": "\/paste\/{id}",
+        "user.show": "\/user\/{uid}",
+        "user.notification": "\/user\/notification",
+        "user.setting": "\/user\/setting",
+        "user.bind_contact_endpoint": "\/user\/bindContactEndpoint",
+        "user.two_factor_setup": "\/user\/twoFactorSetup",
+        "problem.list": "\/problem\/list",
+        "problem.show": "\/problem\/{pid}",
+        "problem.edit": "\/problem\/edit\/{pid}",
+        "problem.new": "\/problem\/new",
+        "theme.list": "\/theme\/list",
+        "theme.setTheme": "\/theme\/setTheme\/{id}",
+        "theme.design": "\/theme\/design\/{id}",
+        "theme.edit": "\/theme\/edit\/{id}",
+        "theme.delete": "\/theme\/delete\/{id}",
+        "image.list": "\/image",
+        "ranking.list": "\/ranking",
+        "auth.login": "\/auth\/login",
+        "auth.unlock": "\/auth\/unlock",
+        "auth.forget_password": "\/auth\/forgetPassword",
+        "auth.register": "\/auth\/register",
+        "auth.openid_landing": "\/auth\/openidLanding",
+        "training.list": "\/training\/list",
+        "training.show": "\/training\/{id}",
+        "training.edit": "\/training\/edit\/{id}",
+        "training.new": "\/training\/new",
+        "record.list": "\/record\/list",
+        "record.show": "\/record\/{id}",
+        "blog.jump_to_post": "\/blog\/_post\/{id}",
+        "blog.list": "\/blog\/{identifier}\/",
+        "blog.sitemap": "\/blog\/{identifier}\/_sitemap",
+        "blog.show": "\/blog\/{identifier}\/{postIdentifier}",
+        "app.ide": "\/ide",
+        "chat.list": "\/chat",
+        "api.contest.join": "\/fe\/api\/contest\/join\/{id}",
+        "api.contest.scoreboard": "\/fe\/api\/contest\/scoreboard\/{id}",
+        "api.contest.verify_problem": "\/fe\/api\/contest\/verifyProblem\/{id}",
+        "api.contest.edit_problem": "\/fe\/api\/contest\/editProblem\/{id}",
+        "api.contest.edit": "\/fe\/api\/contest\/edit\/{id}",
+        "api.contest.freeze_scoreboard": "\/fe\/api\/contest\/freezeScoreboard\/{id}",
+        "api.contest.new": "\/fe\/api\/contest\/new",
+        "api.contest.delete": "\/fe\/api\/contest\/delete\/{id}",
+        "api.contest.invitation_code": "\/fe\/api\/contest\/invitationCodeList\/{id}",
+        "api.contest.generate_invitation_code": "\/fe\/api\/contest\/generateInvitationCode\/{id}",
+        "api.user.clear_unread_notification": "\/fe\/api\/user\/clearUnreadNotification",
+        "api.user.bind_contact_endpoint": "\/fe\/api\/user\/bindContactEndpoint",
+        "api.user.two_factor_setup": "\/fe\/api\/user\/twoFactorSetup",
+        "api.user.start_identity_certify": "\/fe\/api\/user\/startIdentityCertify",
+        "api.user.finish_identity_certify": "\/fe\/api\/user\/finishIdentityCertify",
+        "api.user.set_user_prize_show_level": "\/fe\/api\/user\/setUserPrizeShowLevel\/{id}",
+        "api.user.set_ccf_level_show_level": "\/fe\/api\/user\/setCCFLevelShowLevel",
+        "api.user.update_relation_ship": "\/fe\/api\/user\/updateRelationShip",
+        "api.user.search": "\/fe\/api\/user\/search",
+        "api.user.followings": "\/fe\/api\/user\/followings",
+        "api.user.followers": "\/fe\/api\/user\/followers",
+        "api.user.update_slogan": "\/fe\/api\/user\/updateSlogan",
+        "api.user.joined_contest": "\/fe\/api\/user\/joinedContests",
+        "api.user.created_posts": "\/fe\/api\/user\/createdPosts",
+        "api.user.created_problems": "\/fe\/api\/user\/createdProblems",
+        "api.user.created_contests": "\/fe\/api\/user\/createdContests",
+        "api.user.marked_trainings": "\/fe\/api\/user\/markedTrainings",
+        "api.user.created_trainings": "\/fe\/api\/user\/createdTrainings",
+        "api.user.update_header_image": "\/fe\/api\/user\/updateHeaderImage",
+        "api.user.update_setting": "\/fe\/api\/user\/updateSetting",
+        "api.user.update_username": "\/fe\/api\/user\/updateUsername",
+        "api.user.bind_vjudge_account": "\/fe\/api\/user\/bindVjudgeAccount",
+        "api.user.unbind_vjudge_account": "\/fe\/api\/user\/unbindVjudgeAccount",
+        "api.user.update_introduction": "\/fe\/api\/user\/updateIntroduction",
+        "api.user.unbind_openid": "\/fe\/api\/user\/unbindOpenId\/{platform}",
+        "api.openid.connect": "\/api\/openid\/connect\/{platform}",
+        "api.problem.tasklist_add": "\/fe\/api\/problem\/tasklistAdd",
+        "api.problem.tasklist_remove": "\/fe\/api\/problem\/tasklistRemove",
+        "api.problem.submit": "\/fe\/api\/problem\/submit\/{pid}",
+        "api.problem.resolve_pid": "\/fe\/api\/problem\/resolvePID",
+        "api.problem.generate_attachment_upload_link": "\/fe\/api\/problem\/generateAttachmentUploadLink\/{pid}",
+        "api.problem.download_attachment": "\/fe\/api\/problem\/downloadAttachment\/{id}",
+        "api.problem.delete_attachment": "\/fe\/api\/problem\/deleteAttachment\/{id}",
+        "api.problem.generate_data_upload_link": "\/fe\/api\/problem\/generateDataUploadLink\/{pid}",
+        "api.problem.new": "\/fe\/api\/problem\/new",
+        "api.problem.edit": "\/fe\/api\/problem\/edit\/{pid}",
+        "api.problem.delete": "\/fe\/api\/problem\/delete\/{pid}",
+        "api.problem.edit_test_case": "\/fe\/api\/problem\/editTestCase\/{pid}",
+        "api.problem.transfer": "\/fe\/api\/problem\/transfer\/{pid}",
+        "api.problem.clear_test_data_upload_status": "\/fe\/api\/problem\/clearTestDataUploadStatus\/{pid}",
+        "api.image.detail": "\/api\/image\/detail\/{id}",
+        "api.image.delete": "\/api\/image\/delete",
+        "api.image.generate_upload_link": "\/api\/image\/generateUploadLink",
+        "api.verify.captcha": "\/api\/verify\/captcha",
+        "api.verify.send_verification_code": "\/api\/verify\/sendVerificationCode",
+        "api.verify.send_two_factor_code": "\/api\/verify\/sendTwoFactorCode",
+        "Luogu\\Controller\\API\\Report.submit": "\/api\/report\/{type}",
+        "api.feed.list": "\/api\/feed\/list",
+        "api.auth.user_pass_login": "\/api\/auth\/userPassLogin",
+        "api.auth.sync_login": "\/api\/auth\/syncLogin",
+        "api.auth.logout": "\/api\/auth\/logout",
+        "api.auth.register": "\/api\/auth\/register",
+        "api.auth.forget_password": "\/api\/auth\/forgetPassword",
+        "api.auth.update_password": "\/api\/auth\/updatePassword",
+        "api.auth.lock": "\/api\/auth\/lock",
+        "api.auth.unlock": "\/api\/auth\/unlock",
+        "api.training.mark": "\/api\/training\/mark\/{id}",
+        "api.training.unmark": "\/api\/training\/unmark\/{id}",
+        "api.training.scoreboard": "\/api\/training\/scoreboard",
+        "api.training.edit": "\/api\/training\/edit\/{id}",
+        "api.training.new": "\/api\/training\/new",
+        "api.training.clone": "\/api\/training\/clone\/{id}",
+        "api.training.transfer": "\/api\/training\/transfer\/{id}",
+        "api.training.delete": "\/api\/training\/delete\/{id}",
+        "api.training.problems": "\/api\/training\/problems\/{id}",
+        "api.training.edit_problems": "\/api\/training\/editProblems\/{id}",
+        "api.record.query_downloadable_testcase": "\/fe\/api\/record\/queryDownloadableTestcase\/{id}",
+        "api.record.perform_download_testcase": "\/fe\/api\/record\/downloadTestcase\/{id}",
+        "api.blog.list": "\/api\/blog\/lists",
+        "api.blog.detail": "\/api\/blog\/detail\/{blogId}",
+        "api.blog.vote": "\/api\/blog\/vote\/{blogId}",
+        "api.blog.reply": "\/api\/blog\/reply\/{blogId}",
+        "api.blog.replies": "\/api\/blog\/replies\/{blogId}",
+        "api.blog.delete": "\/api\/blog\/delete\/{blogId}",
+        "api.blog.user_blogs": "\/api\/blog\/userBlogs",
+        "api.chat.new": "\/api\/chat\/new",
+        "api.chat.delete": "\/api\/chat\/delete",
+        "api.chat.record": "\/api\/chat\/record",
+        "api.chat.clear_unread": "\/api\/chat\/clearUnread",
+        "api.oierdb.cities": "\/api\/oierdb\/cities",
+        "api.oierdb.schools": "\/api\/oierdb\/schools",
+        "api.oierdb.match_prize": "\/api\/oierdb\/matchPrize",
+        "backend.oss_callback.image_hosting": "\/backend\/oss\/image_hosting",
+        "backend.oss_callback.problem_attachment": "\/backend\/ossproblem_attachment",
+        "backend.oss_callback.problem_test_data": "\/backend\/oss\/problemTestData"
+    },
+    "userRelationshipTypes": [{
+        "id": 0,
+        "type": "Unrelated"
+    }, {
+        "id": 1,
+        "type": "Following"
+    }, {
+        "id": 2,
+        "type": "Blacklisted"
+    }],
+    "scoringStrategyTypes": {
+        "0": {
+            "id": 0,
+            "type": "Sum",
+            "name": "\u52a0\u548c"
+        },
+        "1": {
+            "id": 1,
+            "type": "Min",
+            "name": "\u6700\u5c0f\u503c"
+        },
+        "2": {
+            "id": 2,
+            "type": "Max",
+            "name": "\u6700\u5927\u503c"
+        },
+        "100": {
+            "id": 100,
+            "type": "Custom",
+            "name": "\u81ea\u5b9a\u4e49"
+        }
+    },
+    "problemTypes": {
+        "P": {
+            "id": "P",
+            "type": "Public",
+            "name": "\u4e3b\u9898\u5e93",
+            "vjudge": false,
+            "userCreatable": false,
+            "searchable": true
+        },
+        "T": {
+            "id": "T",
+            "type": "Team",
+            "name": "\u56e2\u961f\u9898\u5e93",
+            "vjudge": false,
+            "userCreatable": true,
+            "searchable": false
+        },
+        "U": {
+            "id": "U",
+            "type": "User",
+            "name": "\u4e2a\u4eba\u9898\u5e93",
+            "vjudge": false,
+            "userCreatable": true,
+            "searchable": false
+        },
+        "CF": {
+            "id": "CF",
+            "type": "CodeForces",
+            "name": "CodeForces",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true
+        },
+        "SP": {
+            "id": "SP",
+            "type": "SPOJ",
+            "name": "SPOJ",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true
+        },
+        "AT": {
+            "id": "AT",
+            "type": "AtCoder",
+            "name": "AtCoder",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true
+        },
+        "UVA": {
+            "id": "UVA",
+            "type": "UVA",
+            "name": "UVA",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true
+        }
+    },
+    "messageModeTypes": [{
+        "id": 0,
+        "type": "Admin",
+        "name": "\u4ec5\u9650\u7ba1\u7406\u5458"
+    }, {
+        "id": 1,
+        "type": "Following",
+        "name": "\u5173\u6ce8\u7684\u4eba\u4e0e\u7ba1\u7406\u5458"
+    }, {
+        "id": 2,
+        "type": "Anyone",
+        "name": "\u6240\u6709\u4eba(\u62c9\u9ed1\u7684\u7528\u6237\u9664\u5916)"
+    }],
+    "problemFlagTypes": {
+        "0": {
+            "id": 0,
+            "type": "Hidden",
+            "name": "\u9690\u85cf"
+        },
+        "2": {
+            "id": 2,
+            "type": "TeamAccessEnabled",
+            "name": "\u4ec5\u56e2\u961f\u53ef\u89c1"
+        },
+        "5": {
+            "id": 5,
+            "type": "PublicAccessEnabled",
+            "name": "\u516c\u4f17\u53ef\u89c1"
+        },
+        "6": {
+            "id": 6,
+            "type": "ContestMode",
+            "name": "\u6bd4\u8d5b\u8d5b\u9898"
+        }
+    },
+    "contestInvitationCodeType": {
+        "1": {
+            "id": 1,
+            "type": "FixedInvitationCode",
+            "name": "\u56fa\u5b9a\u9080\u8bf7\u7801"
+        },
+        "2": {
+            "id": 2,
+            "type": "GeneratedInvitationCode",
+            "name": "\u751f\u6210\u9a8c\u8bc1\u7801"
+        }
+    },
+    "trainingTypes": {
+        "0": {
+            "id": 0,
+            "type": "Hidden",
+            "name": "\u9690\u85cf\u9898\u5355",
+            "public": false,
+            "select": false,
+            "scope": "hidden",
+            "userCreatable": false,
+            "color": "grey-5"
+        },
+        "1": {
+            "id": 1,
+            "type": "Official",
+            "name": "\u5b98\u65b9\u9898\u5355",
+            "public": true,
+            "select": true,
+            "scope": "global",
+            "userCreatable": false,
+            "color": "red-3"
+        },
+        "2": {
+            "id": 2,
+            "type": "TeamPrivate",
+            "name": "\u56e2\u961f\u79c1\u6709",
+            "public": false,
+            "select": false,
+            "scope": "team",
+            "userCreatable": false,
+            "color": "green-4"
+        },
+        "7": {
+            "id": 7,
+            "type": "TeamPublic",
+            "name": "\u56e2\u961f\u516c\u5f00",
+            "public": true,
+            "select": false,
+            "scope": "team",
+            "userCreatable": true,
+            "color": "green-4"
+        },
+        "3": {
+            "id": 3,
+            "type": "TeamSelect",
+            "name": "\u56e2\u961f\u7cbe\u9009",
+            "public": true,
+            "select": true,
+            "scope": "team",
+            "userCreatable": false,
+            "color": "green-4"
+        },
+        "4": {
+            "id": 4,
+            "type": "TeamHomework",
+            "name": "\u56e2\u961f\u4f5c\u4e1a",
+            "public": false,
+            "select": false,
+            "scope": "team",
+            "userCreatable": false,
+            "color": "green-4"
+        },
+        "5": {
+            "id": 5,
+            "type": "UserPrivate",
+            "name": "\u4e2a\u4eba\u79c1\u6709",
+            "public": false,
+            "select": false,
+            "scope": "user",
+            "userCreatable": true,
+            "color": "lapis-3"
+        },
+        "8": {
+            "id": 8,
+            "type": "UserPublic",
+            "name": "\u4e2a\u4eba\u516c\u5f00",
+            "public": true,
+            "select": false,
+            "scope": "user",
+            "userCreatable": true,
+            "color": "lapis-3"
+        },
+        "6": {
+            "id": 6,
+            "type": "UserSelect",
+            "name": "\u4e2a\u4eba\u7cbe\u9009",
+            "public": true,
+            "select": true,
+            "scope": "user",
+            "userCreatable": false,
+            "color": "lapis-3"
+        }
+    },
+    "teamTypes": [{
+        "id": 0,
+        "displayName": "\u5df2\u5c01\u7981"
+    }, {
+        "id": 1,
+        "displayName": "\u5b66\u6821"
+    }, {
+        "id": 2,
+        "displayName": "\u9690\u85cf"
+    }, {
+        "id": 3,
+        "displayName": "\u516c\u5f00\u8d5b"
+    }],
+    "notificationTypes": {
+        "1": {
+            "id": 1,
+            "type": "At",
+            "name": "@\u6211\u7684"
+        },
+        "2": {
+            "id": 2,
+            "type": "Reply",
+            "name": "\u56de\u590d"
+        },
+        "3": {
+            "id": 3,
+            "type": "Others",
+            "name": "\u7cfb\u7edf\u901a\u77e5"
+        }
+    },
+    "imageHostingWatermarkTypes": [{
+        "id": 0,
+        "name": "\u65e0\u6c34\u5370"
+    }, {
+        "id": 1,
+        "name": "Logo"
+    }, {
+        "id": 2,
+        "name": "Logo@\u6635\u79f0"
+    }],
+    "teamMemberPermissionTypes": {
+        "-1": {
+            "id": -1,
+            "type": "NotJoined",
+            "name": "\u672a\u52a0\u5165"
+        },
+        "0": {
+            "id": 0,
+            "type": "ReviewPending",
+            "name": "\u5ba1\u6838\u4e2d"
+        },
+        "1": {
+            "id": 1,
+            "type": "Member",
+            "name": "\u6210\u5458"
+        },
+        "2": {
+            "id": 2,
+            "type": "Administrator",
+            "name": "\u7ba1\u7406\u5458"
+        },
+        "3": {
+            "id": 3,
+            "type": "Master",
+            "name": "\u6240\u6709\u8005"
+        }
+    },
+    "userPrizeShowLevelType": [{
+        "id": 0,
+        "type": "Hidden",
+        "name": "\u9690\u85cf"
+    }, {
+        "id": 1,
+        "type": "WithoutYearAndScore",
+        "name": "\u4e0d\u542b\u5e74\u4efd\u548c\u5206\u6570"
+    }, {
+        "id": 2,
+        "type": "WithoutScore",
+        "name": "\u4e0d\u542b\u5206\u6570"
+    }, {
+        "id": 3,
+        "type": "ShowAll",
+        "name": "\u5c55\u793a"
+    }]
+}

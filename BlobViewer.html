@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zhengjiabao`s blog</title>
+        <script src="./recite_politics/lib/jquery-3.3.1.js"></script>
+    </head>
+
+    <body>
+        <h1>Blob</h1>
+<hr/>
+<table border="1">
+    <thead>
+        <td>Path</td><td>Mode</td><td>Type</td><td>Size</td><td>Sha</td>
+    </thead>
+    <tbody id="main_table">
+    </tbody>
+</table>
+<script>
+    var Path="https://z-jb.gitee.io/"
+    $.getJSON("https://gitee.com/api/v5/repos/z-jb/z-jb/git/trees/master",(data)=>{
+        document.getElementById("main_table").innerHTML=""
+        for (let index = 0; index < data.tree.length; index++) {
+            const element = data.tree[index];
+            tb
+        }
+    })
+</script>
+    </body>
+</html>

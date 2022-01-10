@@ -1,0 +1,18 @@
+var now=new Date();
+var n;
+$(".fire1").hide();
+$(".fire2").hide();
+$(".fire3").hide();
+$(".fire3").hide();
+$("#pic2").hide();
+$("#pic3").hide();
+setTimeout("$(\".fire1\").fadeIn()",1000);
+setTimeout("$(\".fire2\").fadeIn()",2000);
+setTimeout("$(\".fire3\").fadeIn()",3000);
+setTimeout("$(\"#pic\").hide()",5000);
+setTimeout("$(\"#pic2\").show()",5000);
+setTimeout("$(\".fire1\").fadeOut()",5000);
+setTimeout("$(\"#pic2\").hide()",7000);
+setTimeout("$(\"#pic3\").show()",7000);
+setTimeout("$(\".fire2\").fadeOut()",7000);
+setTimeout("$(\".fire3\").fadeOut()",7000);

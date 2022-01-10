@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>PPT SHOW</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="mainselection">
+		<div id="chosen" style="text-align: center;">
+			<div style="text-align: center;"><span
+					style="font-family: 'Courier New', Courier, monospace;">Dashboard</span></div>
+			<form action="">
+				<div style="display: block;" id="GradeHolder">
+					<div style="float: left;">
+						<span>Choose the&nbsp;</span>
+						<span style="font-family: 'Courier New', Courier, monospace;">Grade</span>
+						<span>:</span>
+					</div>
+					<div style="float: left;">
+						<select name="grade" id="grade"></select>
+					</div>
+				</div>
+				<br />
+				<div style="display: none;" id="subjectHolder">
+					<div style="float: left;">
+						<span>Choose the&nbsp;</span>
+						<span style="font-family: 'Courier New', Courier, monospace;">Subject</span>
+						<span>:</span>
+					</div>
+					<div style="float: left;">
+						<select name="subject" id="subject"></select>
+					</div>
+				</div>
+				<br />
+				<div style="display: none;" id="DateHolder">
+					<div style="float: left;">
+						<span>Choose the&nbsp;</span>
+						<span style="font-family: 'Courier New', Courier, monospace;">Date</span>
+						<span>:</span>
+					</div>
+					<div style="float: left;">
+						<select name="date" id="date"></select>
+					</div>
+				</div>
+				<br />
+				<div style="display: none;">
+					<div id="numberPholder">第<select name="number" id="number"></select>份</div>
+				</div>
+			</form>
+			<p>Powered by UnitedLC <a href="https://gitee.com/unitedlc/network_class_ppt">repo地址</a></p>
+		</div>
+		<div id="back" style="display: none;">
+			<img src="image/1199464-back_icon.svg" width="70px" height="70px" />
+			<span id="back_word">Back to the dashboard</span>
+		</div>
+	</div>
+
+	<iframe id="ppt" frameborder="0" style="width:100%;height:100%"></iframe>
+
+</body>
+
+</html>

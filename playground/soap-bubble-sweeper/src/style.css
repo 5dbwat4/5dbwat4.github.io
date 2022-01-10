@@ -1,0 +1,8 @@
+body, html {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+   cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/254249/sponge.png") 25 25, auto;
+}

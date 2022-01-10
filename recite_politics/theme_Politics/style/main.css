@@ -1,0 +1,354 @@
+@font-face{
+  font-family: kaiti;
+  src:url(../font/kaiti.ttf),url(../font/kaiti.otf),url(../font/kaiti.woff),url(../font/kaiti.woff2),url(../font/kaiti.eot);
+}
+.tin_button {
+    display:inline;
+  border: none;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: medium;
+  border-right-color: currentcolor;
+  border-right-style: none;
+  border-right-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-left-color: currentcolor;
+  border-left-style: none;
+  border-left-width: medium;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  display: inline-block;
+  outline: 0;
+  outline-color: currentcolor;
+  outline-style: none;
+  outline-width: 0px;
+  padding: 8px 18px;
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  text-decoration-thickness: auto;
+  color:
+    #fff;
+  background-color:
+    #e9686b;
+  text-align: center;
+  transition: .2s ease-out;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  font-family: '微软雅黑';
+  border-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  }
+  .description_white {
+    display:inline;
+  border: none;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: medium;
+  border-right-color: currentcolor;
+  border-right-style: none;
+  border-right-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-left-color: currentcolor;
+  border-left-style: none;
+  border-left-width: medium;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  display: inline-block;
+  outline: 0;
+  outline-color: currentcolor;
+  outline-style: none;
+  outline-width: 0px;
+  padding: 8px 18px;
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  text-decoration-thickness: auto;
+  color:
+    #000;
+  background-color:
+    #fff;
+  text-align: center;
+  transition: .2s ease-out;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  white-space: nowrap;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  font-family: '微软雅黑';
+  border-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  }
+  .sameline{
+      display:inline;
+  }
+  #question{
+      font-family: "kaiti";
+      font-size: 24px;
+  }
+.hidden_ans{
+    background-color: #000;
+    color: #000;
+}.shown_ans{
+    background-color: #fff;
+    color:#000
+}
+#answerholder{
+  font-family: "kaiti";
+  font-size: 24px;
+}
+.methodsk{
+    border-top-color: #000;
+border-top-style: dotted;
+border-top-width: 1px;
+border-right-color: #000;
+border-right-style: dotted;
+border-right-width: 1px;
+border-bottom-color: #000;
+border-bottom-style: dotted;
+border-bottom-width: 1px;
+border-left-color: #000;
+border-left-style: dotted;
+border-left-width: 1px;
+}.tnxsty{
+  font-family: "kaiti";
+  font-size: 24px;
+}.middle{
+  border:
+black dotted 1px;
+
+background:
+aliceblue;
+
+box-shadow: 0px 4px 8px
+rgba(0, 0, 0, 0.12), 0px 4px 4px
+rgba(0, 0, 0, 0.24);
+
+margin-top: 10px;
+
+margin-bottom: 10px;
+padding: 10px;
+}.title_content{
+
+}.small_button{
+  float: right;
+  margin:0;
+    display:inline;
+  border: none;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: medium;
+  border-right-color: currentcolor;
+  border-right-style: none;
+  border-right-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-left-color: currentcolor;
+  border-left-style: none;
+  border-left-width: medium;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  display: inline-block;
+  outline: 0;
+  outline-color: currentcolor;
+  outline-style: none;
+  outline-width: 0px;
+  padding: 8px 18px;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  vertical-align: middle;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  text-decoration-thickness: auto;
+  color:
+    #fff;
+  background-color:
+    #e9686b;
+  text-align: center;
+  transition: .2s ease-out;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  font-family: '微软雅黑';
+  border-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  }.question_holder{
+    display: block;
+    min-height: 30px;
+  }.small_button_root{
+    margin:0;
+    display:inline;
+  border: none;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: medium;
+  border-right-color: currentcolor;
+  border-right-style: none;
+  border-right-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-left-color: currentcolor;
+  border-left-style: none;
+  border-left-width: medium;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  display: inline-block;
+  outline: 0;
+  outline-color: currentcolor;
+  outline-style: none;
+  outline-width: 0px;
+  padding: 8px 18px;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  vertical-align: middle;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  text-decoration-thickness: auto;
+  color:
+    #fff;
+  background-color:
+    #e9686b;
+  text-align: center;
+  transition: .2s ease-out;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  font-family: '微软雅黑';
+  border-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  }.base_button{
+    margin:3;
+    display:inline;
+  border: none;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: medium;
+  border-right-color: currentcolor;
+  border-right-style: none;
+  border-right-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-left-color: currentcolor;
+  border-left-style: none;
+  border-left-width: medium;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  display: inline-block;
+  outline: 0;
+  outline-color: currentcolor;
+  outline-style: none;
+  outline-width: 0px;
+  padding: 4px 4px;
+  vertical-align: middle;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  text-decoration-thickness: auto;
+  color:
+    #fff;
+  background-color:
+    #e9686b;
+  text-align: center;
+  transition: .2s ease-out;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  font-family: '微软雅黑';
+  border-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  }

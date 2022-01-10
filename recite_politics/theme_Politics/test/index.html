@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Reviews</title>
+<link href="../style/main.css" rel="stylesheet" type="text/css" />
+<script src="../lib/jquery-3.3.1.js" ></script>
+<script src="../js/util.js" ></script>
+</head>
+
+<body>
+<div>
+        <p class="tin_button">
+            <a style="color:#fff;text-decoration:none;" href="../unfamiliar/index.html">“不熟悉的知识点”列表
+            </a></p><hr/>
+        <div class="middle" style="text-align: center;">
+            
+<p class="sameline description_white" >题号</p>
+<p class="base_button" id="prevtest_bottom"><img name="icon" width=28px id="image_prev" height=28px title="上一题" src="../icon/prev.jpg" /></p>
+<p class="sameline description_white" id="quesNum">1</p>
+<p class="base_button" id="nesttest_bottom"><img name="icon" width=28px id="image_next" height=28px title="下一题" src="../icon/next.jpg" /></p>
+<p class="tin_button" id="testmode_bottom">顺序</p>
+</div>
+<p id="question" ></p>
+<hr />
+<div align="center">
+    <div class="methodsk">
+        <p class="base_button" id="toggleans_bottom">
+            <img name="icon" width=28px id="image_showans" style="display: none;" height=28px title="显示答案" src="../icon/show.svg" />
+            <img name="icon" width=28px id="image_hideans" style="display: block;" height=28px title="隐藏答案" src="../icon/hide.svg" />
+        </p>
+    <p class="base_button" id="showanscons_bottom"><img name="icon" width=28px id="image_hideans" style="display: block;" height=28px title="显示答案结构" src="../icon/cons.png" /></p>
+        <div  style="width: 10px;background-color: black;display: inline-block;margin-left: 5px;margin-right: 5px;"></div>
+
+    <p class="base_button" id="insert_unfamiliar_list"><img name="icon" height=28px title="加入“不熟悉的知识点”列表" src="../icon/collect.png" /></p>
+    <p class="base_button" id="remove_unfamiliar_list" style="display: none;"><img name="icon" height=28px title="移除“不熟悉的知识点”列表" src="../icon/collected.png" /></p>
+</div>
+</div>
+<hr />
+<div id="answerholder"></div>
+</div>
+<script src="../js/test.js"></script>
+
+</body>
+</html>

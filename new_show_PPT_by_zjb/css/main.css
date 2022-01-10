@@ -1,0 +1,55 @@
+body,html{
+	margin:0;
+	height:100%;
+	width:100%;
+}
+#mainselection {
+	font-family: "楷体";
+	font-size: 24px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	background-color: #00FFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	white-space: normal;
+	width: 70%;
+	height: auto;
+	left: 15%;
+	top: 30%;
+	right: 15%;
+	bottom: auto;
+	border: medium solid #333333;
+	box-shadow:0 0 3px #333333;
+	position: absolute;
+	display: flex;
+	overflow: hidden;
+}
+#mainselection select {
+	font-family: "楷体";
+	font-size: 24px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	background-color: #FFFFFF;
+	height: 24px;
+	width: 200px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#mainselection #back #back_word {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+}

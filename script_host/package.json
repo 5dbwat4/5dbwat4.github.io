@@ -1,0 +1,19 @@
+{
+  "name": "zhixue_hommization",
+  "version": "2.0.3",
+  "description": "For zhixue.com/zbpt:When chat is banned,You can still speak without being seen by the teacher.some more function is inserted.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zheng-Jiabao/zhixue_hommization.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "bugs": {
+    "url": "https://github.com/Zheng-Jiabao/zhixue_hommization/issues"
+  },
+  "author": "Zheng-jiabao",
+  "license": "MIT",
+  "homepage": "https://github.com/Zheng-Jiabao/zhixue_hommization"
+}

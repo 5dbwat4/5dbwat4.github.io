@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Reviews</title>
+<script src="./lib/jquery-3.3.1.js"></script>
+<link href="./style/main.css" rel="stylesheet" type="text/css" />
+<script src="js/util.js"></script>
+</head>
+
+<body>
+
+    <p  class="description_white">抽背工具</p>
+    <br/>
+    <a class="tin_button" href="./test/index.html">从上次开始继续抽背</a>
+
+    <div id="con_list"  class="middle">
+        <p style="margin :10px;display: inline-block;">或继续抽查</p>
+        <p class="small_button_root" id="reset">重置数据</p>
+        <p class="small_button_root" id="test_chosen" style="display: none;">抽查选中的题目</p>
+        <p id="test_chosen_error" style="display: none;">您尚未选中任何一道题目</p>
+    </div>
+
+    <div id="insert" class="middle">
+        <p  class="description_white sameline">或添加</p>
+        <input placeholder="链接" type="text" id="insert_url"/>
+        <p class="small_button_root" id="insert_submit">确定</p>
+        <p style="display: inline-block;" id="InsertSubmit_error"></p>
+    </div>
+
+    <script src="js/root.js"></script>
+
+</body>
+</html>
